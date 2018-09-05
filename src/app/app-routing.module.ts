@@ -6,7 +6,7 @@ const routes: Routes = [
     path: "",
     pathMatch: "full",
     loadChildren:
-      "preliminary-module/preliminary-module.module#PreliminaryModuleModule"
+      "../app/preliminary-module/preliminary-module.module#PreliminaryModuleModule"
   }
 ];
 

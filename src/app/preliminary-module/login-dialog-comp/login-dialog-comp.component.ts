@@ -7,27 +7,12 @@ import {
 } from "@angular/forms";
 import { ErrorStateMatcher } from "@angular/material/core";
 import { Observable, of } from "rxjs";
+
 @Component({
   selector: "app-login-dialog-comp",
   templateUrl: "./login-dialog-comp.component.html",
   styleUrls: ["./login-dialog-comp.component.scss"]
 })
-
-//class used to define the errors from mistyped email addresses
-export class MyErrorStateMatcher implements ErrorStateMatcher {
-  isErrorState(
-    control: FormControl | null,
-    form: FormGroupDirective | NgForm | null
-  ): boolean {
-    const isSubmitted = form && form.submitted;
-    return !!(
-      control &&
-      control.invalid &&
-      (control.dirty || control.touched || isSubmitted)
-    );
-  }
-}
-
 export class LoginDialogCompComponent implements OnInit {
   emailFormControl;
   matcher;
@@ -42,5 +27,22 @@ export class LoginDialogCompComponent implements OnInit {
     this.matcher = new MyErrorStateMatcher();
   }
 
+  signInTeam(email: string, password: string) {}
+
   ngOnInit() {}
+}
+
+//class used to define the errors from mistyped email addresses
+export class MyErrorStateMatcher implements ErrorStateMatcher {
+  isErrorState(
+    control: FormControl | null,
+    form: FormGroupDirective | NgForm | null
+  ): boolean {
+    const isSubmitted = form && form.submitted;
+    return !!(
+      control &&
+      control.invalid &&
+      (control.dirty || control.touched || isSubmitted)
+    );
+  }
 }
