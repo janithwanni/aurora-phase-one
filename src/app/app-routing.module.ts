@@ -2,7 +2,12 @@ import { NgModule } from "@angular/core";
 import { RouterModule, Routes } from "@angular/router";
 
 const routes: Routes = [
-  //{ path: "", pathMatch: "full", loadChildren:"app/preliminary-module/preliminary-module.module#PreliminaryModuleModule" },
+  {
+    path: "",
+    pathMatch: "full",
+    loadChildren:
+      "preliminary-module/preliminary-module.module#PreliminaryModuleModule"
+  }
 ];
 
 @NgModule({
