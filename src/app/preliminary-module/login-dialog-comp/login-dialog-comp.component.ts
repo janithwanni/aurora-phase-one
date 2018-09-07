@@ -7,6 +7,7 @@ import {
 } from "@angular/forms";
 import { ErrorStateMatcher } from "@angular/material/core";
 import { Observable, of } from "rxjs";
+import { AuthenticatorService } from "../services/authenticator/authenticator.service";
 
 @Component({
   selector: "app-login-dialog-comp",
@@ -16,7 +17,7 @@ import { Observable, of } from "rxjs";
 export class LoginDialogCompComponent implements OnInit {
   emailFormControl;
   matcher;
-  constructor() {
+  constructor(public authenticator: AuthenticatorService) {
     //email form control
     this.emailFormControl = new FormControl("", [
       Validators.required,
@@ -27,7 +28,9 @@ export class LoginDialogCompComponent implements OnInit {
     this.matcher = new MyErrorStateMatcher();
   }
 
-  signInTeam(email: string, password: string) {}
+  signInTeam(email: string, password: string) {
+    this.authenticator.signInTeamWithEmailPassword(email, password);
+  }
 
   ngOnInit() {}
 }
