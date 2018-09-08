@@ -28,9 +28,9 @@ export class LoginDialogCompComponent implements OnInit {
     this.matcher = new MyErrorStateMatcher();
   }
 
-  signInTeam(email: string, password: string) {
+  /*  signInTeam(email: string, password: string) {
     this.authenticator.signInTeamWithEmailPassword(email, password);
-  }
+  } */
 
   ngOnInit() {}
 }
