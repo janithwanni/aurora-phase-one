@@ -4,14 +4,16 @@
 
 export const environment = {
   production: false,
-  firebase: {
-    apiKey: "AIzaSyD5z6ThzDjb-kieNXmpnKr5RZvMExFBQI0",
-    authDomain: "aurora-phase-one.firebaseapp.com",
-    databaseURL: "https://aurora-phase-one.firebaseio.com",
-    projectId: "aurora-phase-one",
-    storageBucket: "aurora-phase-one.appspot.com",
-    messagingSenderId: "342499673702"
+  firebase:{
+    apiKey: "AIzaSyCbvAxQdze4fhVIl2hC71RkHigB1wYlmDk",
+    authDomain: "phase1-b060f.firebaseapp.com",
+    databaseURL: "https://phase1-b060f.firebaseio.com",
+    projectId: "phase1-b060f",
+    storageBucket: "phase1-b060f.appspot.com",
+    messagingSenderId: "855434286915"
   }
+  // backend_url: 'http://localhost:8080'
+  // backend_url: 'http://imalkag.ddns.net:8080'
 };
 
 /*

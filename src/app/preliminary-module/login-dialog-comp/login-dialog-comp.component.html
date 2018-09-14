@@ -1,48 +1,98 @@
-<div class="text-center login-dialog-body">
-  <form class="form-signin">
+<div class="off-canvas-sidebar">
+  <nav class="navbar navbar-primary navbar-transparent navbar-absolute">
+    <!--<nav class="navbar navbar-transparent navbar-absolute" style="background-color: #FAFAFA">-->
     <div class="container">
-      <!-- <div class="row" style="padding-top: 5px;">
-              <div class="col">
-                  <img class="mb-4" src="../assets/images/scslogo.png" alt="" width="72" height="72">
-              </div>
-              <div class="col-xs">
-                  <div style="width:2px; height:80%; background-color:rgb(196, 196, 196);vertical-align:center;">&nbsp;</div>
-              </div>
-              <div class="col">
-                  <img class="mb-4" src="../assets/images/usjplogo.png" alt="" width="72" height="72">
-              </div>
-          </div> -->
-      <div class="row">
-        <div class="col">
-          <h1 class="h3 mb-3 font-weight-normal">Aurora Quiz</h1>
-        </div>
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation-example-2">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+
+        <a class="navbar-brand">Aurora</a>
       </div>
     </div>
+  </nav>
+  <div class="wrapper wrapper-full-page">
+    <div class="full-page login-page" filter-color="black"
+         data-image="assets/img/dashboard/architecture-asphalt-berlin-417023.jpg" style="background-size: cover;">
+      <div class="content">
+        <div class="container">
 
-    <mat-form-field style="width:100%">
-      <input name="email" matInput placeholder="Email" [formControl]="emailFormControl" [errorStateMatcher]="matcher">
-      <mat-hint>Enter your email address</mat-hint>
-      <mat-error *ngIf="emailFormControl.hasError('email') && !emailFormControl.hasError('required')">
-        Please enter a valid email address
-      </mat-error>
-      <mat-error *ngIf="emailFormControl.hasError('required')">
-        Email is
-        <strong>required</strong>
-      </mat-error>
-    </mat-form-field>
 
-    <br/>
-    <br/>
-    <mat-form-field style="width:100%">
-      <input [(ngModel)]="password" name="password" matInput placeholder="Password" type="password">
-      <mat-hint> Enter Your Password </mat-hint>
-    </mat-form-field>
-    <br>
-    <br>
+          <div class="row">
+            <div class="col-md-4 col-sm-6 col-md-offset-4 col-sm-offset-3">
+              <form #frmLogin="ngForm" action="" method="post" (ngSubmit)="getLogin()">
+                <div class="card card-login card-hidden" style="background-color: rgba(0,0,0,0.6);border: none">
+                  <div class="card-header text-center" data-background-color="rose">
+                    <h4 class="card-title">Login</h4>
+                    <div class="social-line">
+                      <a href="https://www.google.com/" target="_blank" class="btn btn-just-icon btn-simple">
+                        <i class="fa fa-google"></i>
+                      </a>
+                      <a href="#pablo" class="btn btn-just-icon btn-simple">
+                        <i class="fa fa-youtube-play"></i>
+                      </a>
+                      <a href="https://www.github.com/" target="_blank" class="btn btn-just-icon btn-simple">
+                        <i class="fa fa-github"></i>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="card-content">
 
-    <!-- TODO add the login function call here -->
-    <button mat-raised-button color="accent" (click)="signInTeam(email,password);"> Login </button>
+                    <div class="input-group">
+        <span class="input-group-addon">
+          <i class="material-icons">face</i>
+        </span>
 
-    <p class="mt-5 mb-3 text-muted">&copy; Society of Computer Science</p>
-  </form>
+                      <div class="form-group label-floating">
+                        <label class="control-label">Team ID</label>
+                        <input type="text" class="form-control" [(ngModel)]="user.teamId" name="txtUserid" style="color: white">
+                      </div>
+                    </div>
+
+                    <div class="input-group">
+        <span class="input-group-addon">
+          <i class="material-icons">lock_outline</i>
+        </span>
+                      <div class="form-group label-floating">
+                        <label class="control-label">Password</label>
+                        <input type="{{passwordVisibility?'text':'password'}}" class="form-control" [(ngModel)]="user.teamPassword" name="txtPassword"
+                               style="color: white">
+                      </div>
+                      <span class="input-group-addon" style="cursor: pointer" (click)="passwordVisible()">
+          <i class="material-icons">visibility</i>
+        </span>
+                    </div>
+                  </div>
+                  <div class="footer text-center">
+                    <button type="submit" class="btn btn-rose btn-simple btn-wd btn-lg" style="color: #e9b500">
+                      Sign In
+                    </button>
+                  </div>
+                  <div *ngIf="failed" class="alert alert-danger"
+                       style="margin-left: 10px;margin-right: 10px;text-align: center;color: #870c00;font-weight: bold">
+                    Incorrect username or password
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+
+
+
+        </div>
+      </div>
+
+      <footer class="footer" style="padding: 0px">
+        <div class="container" style="margin-right: 0px">
+          <p class="copyright pull-right">
+            Copyright &copy; 2018 - University Of Sri Jayewardenapura / Department Of Computer Science
+          </p>
+        </div>
+      </footer>
+
+    </div>
+  </div>
 </div>
