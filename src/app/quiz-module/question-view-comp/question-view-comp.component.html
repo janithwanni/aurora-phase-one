@@ -1,3 +1,40 @@
-<p>
-  question-view-comp works!
-</p>
+<div class="question-container">
+  <div class="question-header">
+    <h1 class="h1">Question Heading</h1>
+  </div>
+  <div class="question-content">
+    <span class="question-text">
+      <br/>
+      <h4 *ngIf="question | async  as q" class="h4" style="font-weight: 200 !important;">
+        To be or not to be? Smash or Pass? {{q.questionText}}
+      </h4>
+      <br/>
+    </span>
+  </div>
+
+  <form>
+    <div class="answers-section">
+      <mat-radio-group class="answers-button-group" name="userAnswer" [(ngModel)]="userAnswer">
+        <mat-radio-button color="primary" *ngFor="let answer of answerList" [value]="answer">
+          {{answer}}
+        </mat-radio-button>
+      </mat-radio-group>
+      <br>
+      <button class="answer-submit-button" mat-raised-button color="primary" (click)="checkAnswer();">
+        Submit Answer
+      </button>
+    </div>
+    <div class="answer-status">
+      <div *ngIf="question | async as q">
+        <div *ngIf="q.answerGiven">
+          <div *ngIf="q.correctAnswer == userAnswer">
+            <h3> Hooray you are carrot</h3>
+          </div>
+          <div *ngIf="q.correctAnswre != userAnswer">
+            <h3> Dumb Donkey </h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>

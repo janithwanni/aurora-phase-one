@@ -1,0 +1,29 @@
+.question-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 120px;
+  padding-right: 120px;
+  padding-left: 60px;
+  padding-top: 60px;
+  height: 100%;
+  background: #fefeff;
+}
+.question-text {
+  text-align: center;
+}
+.question-content {
+}
+.answers-section .answers-button-group {
+  display: flex;
+  flex-direction: column;
+}
+.answer-submit-button {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+.answer-status {
+}
