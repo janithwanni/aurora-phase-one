@@ -22,7 +22,7 @@ import {
   MatToolbarModule
 } from "@angular/material";
 import { MatProgressSpinnerModule } from "@angular/material/progress-spinner";
-import { MatSnackBarModule } from "@angular/material/snack-bar";
+import { MatSnackBarModule } from "@angular/material";
 /*firebase imports*/
 import { AngularFireAuth } from "angularfire2/auth";
 

@@ -17,6 +17,8 @@ import { AuthenticatorService } from "../services/authenticator/authenticator.se
 export class LoginDialogCompComponent implements OnInit {
   emailFormControl;
   matcher;
+  email: string;
+  password: string;
   constructor(public authenticator: AuthenticatorService) {
     //email form control
     this.emailFormControl = new FormControl("", [
@@ -28,9 +30,10 @@ export class LoginDialogCompComponent implements OnInit {
     this.matcher = new MyErrorStateMatcher();
   }
 
-  /*  signInTeam(email: string, password: string) {
+  signInTeam(email: string, password: string) {
+    email = this.emailFormControl.value;
     this.authenticator.signInTeamWithEmailPassword(email, password);
-  } */
+  }
 
   ngOnInit() {}
 }

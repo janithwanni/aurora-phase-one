@@ -4,6 +4,8 @@ import { auth } from "firebase";
 import { MatSnackBar } from "@angular/material";
 import { TeamInfo } from "../../../models/team-info";
 import { AngularFireDatabase } from "angularfire2/database";
+import { TeamProgress } from "../../../models/team-progress";
+import { Router } from "@angular/router";
 @Injectable({
   providedIn: "root"
 })
@@ -11,10 +13,12 @@ export class AuthenticatorService {
   constructor(
     private matsnackbar: MatSnackBar,
     public firebaseAuth: AngularFireAuth,
-    private db: AngularFireDatabase
+    private db: AngularFireDatabase,
+    private router: Router
   ) {} //public firebaseAuth: FirebaseAuth) { }
 
   signInTeamWithEmailPassword(email: string, password: string) {
+    console.log(email, password);
     this.firebaseAuth.auth
       .signInWithEmailAndPassword(email, password)
       .catch(error => {
@@ -36,7 +40,30 @@ export class AuthenticatorService {
             localStorage.setItem("teamName", data + "");
             TeamInfo.setTeamName(data + "");
           });
-
+        //TODO: ADD LOGIC TO RESUME TEAM COMPETITON WHEN INTERNET IS DOWN
+        this.db
+          .object("/teamCurrentQuestion/team-" + teamID + "/question-id")
+          .valueChanges()
+          .subscribe(data => {
+            console.log(data);
+            if (data == "") {
+              //FRESH TEAM
+              let teamProgress: TeamProgress = {
+                teamid: "team-" + teamID,
+                currentScore: 0,
+                currentRing: 0,
+                currentTime: 0,
+                timeLeft: 0,
+                totalDistance: 0,
+                totalScore: 0
+              };
+              this.db.list("/teamProgress/team-" + teamID).push(teamProgress);
+              this.router.navigateByUrl("prelim/rules");
+            } else {
+              //NOT FRESH TEAM
+              this.router.navigateByUrl("quiz");
+            }
+          });
         this.matsnackbar.open("Signing in to the system", "Dismiss");
       });
   }
