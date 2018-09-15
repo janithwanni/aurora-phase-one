@@ -1,6 +1,14 @@
 <div class="question-container">
   <div class="question-header">
-    <h1 class="h1">Question Heading</h1>
+    <div *ngIf="question | async as q" class="countdown-timer">
+      <span *ngIf="countdownMinutes | async as minutes">
+        Time Left {{minutes}} :
+      </span>
+      <span *ngIf="countdownSeconds | async as seconds">
+        {{seconds}}
+      </span>
+    </div>
+    <h1 class="h1" *ngIf="question | async as q">Question from Ring {{q.currentRingLevel}} : Node {{q.currentNodeNumber}} </h1>
   </div>
   <div class="question-content">
     <span class="question-text">
@@ -13,7 +21,7 @@
   </div>
 
   <form>
-    <div class="answers-section">
+    <div *ngIf="question | async as q" class="answers-section">
       <mat-radio-group class="answers-button-group" name="userAnswer" [(ngModel)]="userAnswer">
         <mat-radio-button color="primary" *ngFor="let answer of answerList" [value]="answer">
           {{answer}}

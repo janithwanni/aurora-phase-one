@@ -10,4 +10,6 @@ export class Question {
   answerGiven: boolean;
   timeExceeded: boolean;
   competitionOver: boolean;
+  currentRingLevel: number;
+  currentNodeNumber: number;
 }

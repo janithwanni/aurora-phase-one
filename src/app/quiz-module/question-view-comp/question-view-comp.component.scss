@@ -10,6 +10,12 @@
   height: 100%;
   background: #fefeff;
 }
+.question-header {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
 .question-text {
   text-align: center;
 }
@@ -20,10 +26,12 @@
   flex-direction: column;
 }
 .answer-submit-button {
-  display: flex;
-
-  justify-content: center;
-  align-items: center;
 }
 .answer-status {
+}
+.countdown-timer {
+  text-align: center;
+  display: inline-flex;
+  flex-direction: row;
+  font-size: 14pt !important;
 }

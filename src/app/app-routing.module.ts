@@ -11,6 +11,11 @@ const routes: Routes = [
   {
     path: "quiz",
     loadChildren: "../app/quiz-module/quiz-module.module#QuizModuleModule"
+  },
+  {
+    path: "overview",
+    loadChildren:
+      "../app/overview-module/overview-module.module#OverviewModuleModule"
   }
 ];
 
