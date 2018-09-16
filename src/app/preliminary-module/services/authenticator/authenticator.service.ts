@@ -46,8 +46,9 @@ export class AuthenticatorService {
           .valueChanges()
           .subscribe(data => {
             console.log(data);
-            if (data == "") {
+            if (data == "" || data == null) {
               //FRESH TEAM
+              console.log("FRESH TEAM");
               let teamProgress: TeamProgress = {
                 teamid: "team-" + teamID,
                 currentScore: 0,
@@ -60,6 +61,7 @@ export class AuthenticatorService {
               this.db.list("/teamProgress/team-" + teamID).push(teamProgress);
               this.router.navigateByUrl("prelim/rules");
             } else {
+              console.log("NOT FRESH TEAM" + data);
               //NOT FRESH TEAM
               this.router.navigateByUrl("quiz");
             }

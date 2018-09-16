@@ -7,7 +7,7 @@ import { CompetitionOverCompComponent } from "./competition-over-comp/competitio
 const routes: Routes = [
   { path: "", pathMatch: "full", component: QuestionViewCompComponent },
   { path: "timeout", component: TimeExceededCompComponent },
-  { path: "quiz-over", component: CompetitionOverCompComponent }
+  { path: "endgame", component: CompetitionOverCompComponent }
 ];
 
 @NgModule({

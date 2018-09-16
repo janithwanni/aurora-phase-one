@@ -17,11 +17,12 @@ export class QuestionViewCompComponent implements OnInit {
   answerList: string[] = ["", "", "", ""];
   countdownSeconds: Observable<string>;
   countdownMinutes: Observable<string>;
+  userAnswer: string;
   checkAnswer(): void {
     this.question.subscribe(data => {
       data.answerGiven = true;
     });
-  }
+  } 
 
   ngOnInit() {
     if (localStorage.getItem("teamID") == null) {
@@ -49,7 +50,7 @@ export class QuestionViewCompComponent implements OnInit {
         .subscribe(value => {
           if (value == true) {
             //competitonHasEnded
-            this.router.navigateByUrl("overview");
+            this.router.navigateByUrl("/quiz/endgame");
           }
         });
       let source = interval(1000);
@@ -63,8 +64,11 @@ export class QuestionViewCompComponent implements OnInit {
           );
           this.countdownMinutes =
             minutes == 0 ? of(minutes + "0") : of(minutes + "");
-          if (seconds == 0) {
-            return of(seconds + "0");
+          if (minutes == 0 && seconds == 0) {
+            this.router.navigateByUrl("/quiz/timeout");
+          }
+          if (seconds <= 10) {
+            return of("0"+seconds);
           } else {
             return of(seconds + "");
           }

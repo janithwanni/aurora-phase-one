@@ -10,102 +10,122 @@
     "leaderboard-row-1": {
       "score": 0,
       "teamID": "team-01",
-      "teamName": "School Team 01"
+      "teamName": "School Team 01",
+      "active": false
     },
     "leaderboard-row-10": {
       "score": 0,
       "teamID": "team-11",
-      "teamName": "School Team 01"
+      "teamName": "School Team 01",
+      "active": false
     },
     "leaderboard-row-11": {
       "score": 0,
       "teamID": "team-12",
-      "teamName": "School Team 01"
+      "teamName": "School Team 01",
+      "active": false
     },
     "leaderboard-row-12": {
       "score": 0,
       "teamID": "team-13",
-      "teamName": "School Team 01"
+      "teamName": "School Team 01",
+      "active": false
     },
     "leaderboard-row-13": {
       "score": 0,
       "teamID": "team-14",
-      "teamName": "School Team 01"
+      "teamName": "School Team 01",
+      "active": false
     },
     "leaderboard-row-14": {
       "score": 0,
       "teamID": "team-15",
-      "teamName": "School Team 01"
+      "teamName": "School Team 01",
+      "active": false
     },
     "leaderboard-row-15": {
       "score": 0,
       "teamID": "team-16",
-      "teamName": "School Team 01"
+      "teamName": "School Team 01",
+      "active": false
     },
     "leaderboard-row-16": {
       "score": 0,
       "teamID": "team-17",
-      "teamName": "School Team 01"
+      "teamName": "School Team 01",
+      "active": false
     },
     "leaderboard-row-17": {
       "score": 0,
       "teamID": "team-18",
-      "teamName": "School Team 01"
+      "teamName": "School Team 01",
+      "active": false
     },
     "leaderboard-row-18": {
       "score": 0,
       "teamID": "team-19",
-      "teamName": "School Team 01"
+      "teamName": "School Team 01",
+      "active": false
     },
     "leaderboard-row-19": {
       "score": 0,
       "teamID": "team-20",
-      "teamName": "School Team 01"
+      "teamName": "School Team 01",
+      "active": false
     },
     "leaderboard-row-2": {
       "score": 0,
       "teamID": "team-02",
-      "teamName": "School Team 01"
+      "teamName": "School Team 01",
+      "active": false
     },
     "leaderboard-row-20": {
       "score": 0,
       "teamID": "team-01",
-      "teamName": "School Team 01"
+      "teamName": "School Team 01",
+      "active": false
     },
     "leaderboard-row-3": {
       "score": 0,
       "teamID": "team-04",
-      "teamName": "School Team 01"
+      "teamName": "School Team 01",
+      "active": false
     },
     "leaderboard-row-4": {
       "score": 0,
       "teamID": "team-05",
-      "teamName": "School Team 01"
+      "teamName": "School Team 01",
+      "active": false
     },
     "leaderboard-row-5": {
       "score": 0,
       "teamID": "team-06",
-      "teamName": "School Team 01"
+      "teamName": "School Team 01",
+      "active": false
     },
     "leaderboard-row-6": {
       "score": 0,
       "teamID": "team-07",
-      "teamName": "School Team 01"
+      "teamName": "School Team 01",
+      "active": false
     },
     "leaderboard-row-7": {
       "score": 0,
       "teamID": "team-08",
-      "teamName": "School Team 01"
+      "teamName": "School Team 01",
+      "active": false
     },
     "leaderboard-row-8": {
       "score": 0,
       "teamID": "team-09",
-      "teamName": "School Team 01"
+      "teamName": "School Team 01",
+      "active": false
     },
     "leaderboard-row-9": {
       "score": 0,
       "teamID": "team-10",
-      "teamName": "School Team 01"
+      "teamName": "School Team 01",
+      "active": false
     }
   },
   "node": {
@@ -412,6 +432,7 @@
       "correctAnswerID": "1",
       "questionID": "1",
       "questionText": "Apples or Oranges? You Pick One",
+      "questionImage": "https://i.imgur.com/UVDV9rw.jpg",
       "timeExceeded": false,
       "currentRingLevel": 4,
       "currentNodeNumber": 1
@@ -427,6 +448,7 @@
       "correctAnswerID": "",
       "questionID": "",
       "questionText": "",
+      "questionImage": "https://i.imgur.com/UVDV9rw.jpg",
       "timeExceeded": false,
       "currentRingLevel": 4,
       "currentNodeNumber": 1
@@ -442,6 +464,7 @@
       "correctAnswerID": "",
       "questionID": "",
       "questionText": "",
+      "questionImage": "https://i.imgur.com/UVDV9rw.jpg",
       "timeExceeded": false,
       "currentRingLevel": 4,
       "currentNodeNumber": 1
@@ -457,6 +480,7 @@
       "correctAnswerID": "",
       "questionID": "",
       "questionText": "",
+      "questionImage": "https://i.imgur.com/UVDV9rw.jpg",
       "timeExceeded": false,
       "currentRingLevel": 4,
       "currentNodeNumber": 1
@@ -472,6 +496,7 @@
       "correctAnswerID": "",
       "questionID": "",
       "questionText": "",
+      "questionImage": "https://i.imgur.com/UVDV9rw.jpg",
       "timeExceeded": false,
       "currentRingLevel": 4,
       "currentNodeNumber": 1
@@ -487,6 +512,7 @@
       "correctAnswerID": "",
       "questionID": "",
       "questionText": "",
+      "questionImage": "https://i.imgur.com/UVDV9rw.jpg",
       "timeExceeded": false,
       "currentRingLevel": 4,
       "currentNodeNumber": 1
@@ -502,6 +528,7 @@
       "correctAnswerID": "",
       "questionID": "",
       "questionText": "",
+      "questionImage": "https://i.imgur.com/UVDV9rw.jpg",
       "timeExceeded": false,
       "currentRingLevel": 4,
       "currentNodeNumber": 1
@@ -517,6 +544,7 @@
       "correctAnswerID": "",
       "questionID": "",
       "questionText": "",
+      "questionImage": "https://i.imgur.com/UVDV9rw.jpg",
       "timeExceeded": false,
       "currentRingLevel": 4,
       "currentNodeNumber": 1
@@ -532,6 +560,7 @@
       "correctAnswerID": "",
       "questionID": "",
       "questionText": "",
+      "questionImage": "https://i.imgur.com/UVDV9rw.jpg",
       "timeExceeded": false,
       "currentRingLevel": 4,
       "currentNodeNumber": 1
@@ -547,6 +576,7 @@
       "correctAnswerID": "",
       "questionID": "",
       "questionText": "",
+      "questionImage": "https://i.imgur.com/UVDV9rw.jpg",
       "timeExceeded": false,
       "currentRingLevel": 4,
       "currentNodeNumber": 1
@@ -562,6 +592,7 @@
       "correctAnswerID": "",
       "questionID": "",
       "questionText": "",
+      "questionImage": "https://i.imgur.com/UVDV9rw.jpg",
       "timeExceeded": false,
       "currentRingLevel": 4,
       "currentNodeNumber": 1
@@ -577,6 +608,7 @@
       "correctAnswerID": "",
       "questionID": "",
       "questionText": "",
+      "questionImage": "https://i.imgur.com/UVDV9rw.jpg",
       "timeExceeded": false,
       "currentRingLevel": 4,
       "currentNodeNumber": 1
@@ -592,6 +624,7 @@
       "correctAnswerID": "",
       "questionID": "",
       "questionText": "",
+      "questionImage": "https://i.imgur.com/UVDV9rw.jpg",
       "timeExceeded": false,
       "currentRingLevel": 4,
       "currentNodeNumber": 1
@@ -607,6 +640,7 @@
       "correctAnswerID": "",
       "questionID": "",
       "questionText": "",
+      "questionImage": "https://i.imgur.com/UVDV9rw.jpg",
       "timeExceeded": false,
       "currentRingLevel": 4,
       "currentNodeNumber": 1
@@ -622,6 +656,7 @@
       "correctAnswerID": "",
       "questionID": "",
       "questionText": "",
+      "questionImage": "https://i.imgur.com/UVDV9rw.jpg",
       "timeExceeded": false,
       "currentRingLevel": 4,
       "currentNodeNumber": 1
@@ -637,6 +672,7 @@
       "correctAnswerID": "",
       "questionID": "",
       "questionText": "",
+      "questionImage": "https://i.imgur.com/UVDV9rw.jpg",
       "timeExceeded": false,
       "currentRingLevel": 4,
       "currentNodeNumber": 1
@@ -652,6 +688,7 @@
       "correctAnswerID": "",
       "questionID": "",
       "questionText": "",
+      "questionImage": "https://i.imgur.com/UVDV9rw.jpg",
       "timeExceeded": false,
       "currentRingLevel": 4,
       "currentNodeNumber": 1
@@ -667,6 +704,7 @@
       "correctAnswerID": "",
       "questionID": "",
       "questionText": "",
+      "questionImage": "https://i.imgur.com/UVDV9rw.jpg",
       "timeExceeded": false,
       "currentRingLevel": 4,
       "currentNodeNumber": 1
@@ -682,6 +720,7 @@
       "correctAnswerID": "",
       "questionID": "",
       "questionText": "",
+      "questionImage": "https://i.imgur.com/UVDV9rw.jpg",
       "timeExceeded": false,
       "currentRingLevel": 4,
       "currentNodeNumber": 1
@@ -697,6 +736,7 @@
       "correctAnswerID": "",
       "questionID": "",
       "questionText": "",
+      "questionImage": "https://i.imgur.com/UVDV9rw.jpg",
       "timeExceeded": false,
       "currentRingLevel": 4,
       "currentNodeNumber": 1

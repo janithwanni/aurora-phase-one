@@ -1,6 +1,7 @@
 export class Question {
   questionID: string;
   questionText: string;
+  questionImage:string;
   answerOne: string;
   answerTwo: string;
   answerThree: string;

@@ -1,3 +1,21 @@
-<p>
-  overview-comp works!
-</p>
+<div class="overview-container">
+  <div class="overview-panel-left">
+    <div class="overview-rings">
+      <app-ring-view-comp></app-ring-view-comp>
+    </div>
+    <div class="overview-start-timer">
+      <div *ngIf="competitionStart == false" class="overview-start-button">
+        <button mat-raised-button color="primary" (click)="startCompetition();">Start Competition</button>
+      </div>
+      <div class="overview-timer">
+        <app-timer-view-comp></app-timer-view-comp>
+      </div>
+    </div>
+
+  </div>
+  <div class="overview-panel-right">
+    <div class="overview-leaderboard">
+      <app-leaderboard-comp></app-leaderboard-comp>
+    </div>
+  </div>
+</div>
