@@ -1,4 +1,4 @@
-<div class="overview-container">
+<!-- <div class="overview-container">
   <div class="overview-panel-left">
     <div class="overview-rings">
       <app-ring-view-comp></app-ring-view-comp>
@@ -18,4 +18,37 @@
       <app-leaderboard-comp></app-leaderboard-comp>
     </div>
   </div>
+</div> -->
+
+<div style="display: flex;flex-direction: column;
+justify-content: center;
+align-items: center;
+width: 100%;
+height: 100%;;padding-top:60px;padding-bottom: 60px;">
+  <div style="content: none;
+background: url(../../assets/background.png) no-repeat;
+background-size: cover;
+opacity: 0.5;
+top: 0;
+left: 0;
+bottom: 0;
+right: 0;
+position: absolute;
+z-index: -1"></div>
+  <!-- <div style="flex-direction: column"> -->
+  <h1 class="h1" style="flex-grow:1;font-size:64px;color:#2e2d83 !important;font-weight:400;text-align:center;justify-content:center;font-family: 'Montserrat', sans-serif !important;color:#fff;">Aurora 2018</h1>
+
+
+  <!-- <div> -->
+  <app-ring-view-comp style="flex-grow:2"></app-ring-view-comp>
+  <!-- </div> -->
+  <!-- <div style="justify-content: center;align-content: center;align-items: center;display: flex;/*! width: 500px; *//*! height: 500px; */padding-top: 10px;/*! flex-grow: 1; */"
+      *ngIf="competitionStart == false"> -->
+  <button style="flex-grow:3;font-size: 18px;" mat-raised-button color="primary" (click)="startCompetition();">Start Competition</button>
+  <!-- </div> -->
+  <div *ngIf="competitionStart == false">
+    <app-timer-view-comp></app-timer-view-comp>
+  </div>
+  <!-- 
+</div> -->
 </div>

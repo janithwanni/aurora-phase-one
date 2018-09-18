@@ -9,70 +9,7 @@
 /* $main-material-theme-primary: mat-palette($mat-light-blue);
 $main-material-theme-accent: mat-palette($mat-blue); //A200, A100, A400
 $main-material-theme-warn: mat-palette($mat-red); */
-$custom-light-grey: (
-  50: #fdfdfd,
-  100: #f9fafa,
-  200: #f5f6f7,
-  300: #f1f2f3,
-  400: #eef0f1,
-  500: #ebedee,
-  600: #e9ebec,
-  700: #e5e8e9,
-  800: #e2e5e7,
-  900: #dde0e2,
-  A100: #ffffff,
-  A200: #ffffff,
-  A400: #ffffff,
-  A700: #ffffff,
-  contrast: (
-    50: #000000,
-    100: #000000,
-    200: #000000,
-    300: #000000,
-    400: #000000,
-    500: #000000,
-    600: #000000,
-    700: #000000,
-    800: #000000,
-    900: #000000,
-    A100: #000000,
-    A200: #000000,
-    A400: #000000,
-    A700: #000000
-  )
-);
-$custom-dark-grey: (
-  50: #ececec,
-  100: #d0d0d0,
-  200: #b0b0b0,
-  300: #909090,
-  400: #797979,
-  500: #616161,
-  600: #595959,
-  700: #4f4f4f,
-  800: #454545,
-  900: #333333,
-  A100: #f39595,
-  A200: #ee6868,
-  A400: #ff2424,
-  A700: #ff0a0a,
-  contrast: (
-    50: #000000,
-    100: #000000,
-    200: #000000,
-    300: #000000,
-    400: #ffffff,
-    500: #ffffff,
-    600: #ffffff,
-    700: #ffffff,
-    800: #ffffff,
-    900: #ffffff,
-    A100: #000000,
-    A200: #000000,
-    A400: #ffffff,
-    A700: #ffffff
-  )
-);
+
 $main-material-theme-primary: mat-palette($mat-grey, 50);
 $main-material-theme-accent: mat-palette($mat-blue, 700); // A200, A100, A400
 $main-material-theme-warn: mat-palette($mat-red);

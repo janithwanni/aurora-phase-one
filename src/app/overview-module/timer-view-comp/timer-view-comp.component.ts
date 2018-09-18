@@ -24,19 +24,26 @@ export class TimerViewCompComponent implements OnInit {
       .subscribe(general => {
         let time: string = general.setTime;
         if (general.competitionStart == true) {
-          console.log("DB TIME" + time);
+          //console.log("DB TIME" + time);
           this.initialMinutes = +time.split(":")[0];
           this.initialSeconds = +time.split(":")[1];
           this.countdownSeconds = source.pipe(
             flatMap(tick => {
-              console.log("TIMER TICK" + tick);
+              //console.log("TIMER TICK" + tick);
               let seconds =
                 (60 * this.initialMinutes + this.initialSeconds - tick) % 60;
               let minutes = Math.floor(
                 (60 * this.initialMinutes + this.initialSeconds - tick) / 60
               );
-              console.log("SECONDS" + seconds);
-              console.log("MINUTES", minutes);
+              if (seconds % 60 == 0) {
+                this.db
+                  .object("/general/timeLeft")
+                  .update(
+                    60 * this.initialMinutes + this.initialSeconds - tick
+                  );
+              }
+              /* console.log("SECONDS" + seconds);
+              console.log("MINUTES", minutes); */
               this.countdownMinutes =
                 minutes == 0 ? of(minutes + "0") : of(minutes + "");
               if (minutes == 0 && seconds == 0) {
