@@ -1,0 +1,40 @@
+{
+  "contest" : {
+    "userid1" : {
+      "answers" : [ "Answer 1", "Answer 7", "Answer 3", "Answer 2" ],
+      "question" : "Easy Question 1?"
+    }
+  },
+  "overview" : {
+    "userId2" : {
+      "ring" : 1,
+      "score" : 95.23
+    },
+    "userid1" : {
+      "ring" : 2,
+      "score" : 52.6
+    }
+  },
+  "questions" : {
+    "random-uuid-1" : {
+      "answers" : [ "Answer 1", "Answer 2", "Answer 3", "Answer 4", "Answer 5", "Answer 6", "Answer 7", "Answer 8" ],
+      "correct" : 0,
+      "text" : "Easy Question 1?"
+    },
+    "random-uuid-2" : {
+      "answers" : [ "2-Answer 1", "2-Answer 2", "2-Answer 3", "2-Answer 4", "2-Answer 5", "2-Answer 6", "2-Answer 7", "2-Answer 8" ],
+      "correct" : 5,
+      "text" : "Moderate Question 1?"
+    }
+  },
+  "userInfo" : {
+    "userId2" : {
+      "name" : "Not so awesome team",
+      "pic" : "https://upload.wikimedia.org/wikipedia/commons/c/c7/Bing_logo_%282016%29.svg"
+    },
+    "userid1" : {
+      "name" : "Awsome team 1",
+      "pic" : "https://www.google.lk/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+    }
+  }
+}

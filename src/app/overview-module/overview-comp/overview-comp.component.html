@@ -7,13 +7,13 @@
       <div *ngIf="competitionStart == false" class="overview-start-button">
         <button mat-raised-button color="primary" (click)="startCompetition();">Start Competition</button>
       </div>
-      <div class="overview-timer">
+      <div *ngIf="competitionStart == true" class="overview-timer">
         <app-timer-view-comp></app-timer-view-comp>
       </div>
     </div>
 
   </div>
-  <div class="overview-panel-right">
+  <div *ngIf="competitionStart == true" class="overview-panel-right">
     <div class="overview-leaderboard">
       <app-leaderboard-comp></app-leaderboard-comp>
     </div>

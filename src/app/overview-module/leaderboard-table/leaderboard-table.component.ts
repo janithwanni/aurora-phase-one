@@ -1,6 +1,7 @@
 import { Component, OnInit, ViewChild } from "@angular/core";
 import { MatPaginator, MatSort } from "@angular/material";
 import { LeaderboardTableDataSource } from "./leaderboard-table-datasource";
+import { AngularFireDatabase } from "angularfire2/database";
 
 @Component({
   selector: "app-leaderboard-table",
@@ -14,10 +15,15 @@ export class LeaderboardTableComponent implements OnInit {
   sort: MatSort;
   dataSource: LeaderboardTableDataSource;
 
+  constructor(private db: AngularFireDatabase) {}
   /** Columns displayed in the table. Columns IDs can be added, removed, or reordered. */
-  displayedColumns = ["id", "name"];
+  displayedColumns = ["teamID", "teamName", "score"];
 
   ngOnInit() {
-    this.dataSource = new LeaderboardTableDataSource(this.paginator, this.sort);
+    this.dataSource = new LeaderboardTableDataSource(
+      this.paginator,
+      this.sort,
+      this.db
+    );
   }
 }

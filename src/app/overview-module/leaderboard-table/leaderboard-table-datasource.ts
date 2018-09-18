@@ -1,16 +1,17 @@
 import { DataSource } from "@angular/cdk/collections";
 import { MatPaginator, MatSort } from "@angular/material";
-import { map } from "rxjs/operators";
+import { map, filter, flatMap } from "rxjs/operators";
 import { Observable, of as observableOf, merge } from "rxjs";
-
+import { LeaderboardRow } from "../../models/leaderboard-row";
+import { AngularFireDatabase } from "angularfire2/database";
 // TODO: Replace this with your own data model type
-export interface LeaderboardTableItem {
+/* export interface LeaderboardTableItem {
   name: string;
   id: number;
-}
+} */
 
 // TODO: replace this with real data from your application
-const EXAMPLE_DATA: LeaderboardTableItem[] = [
+/* const EXAMPLE_DATA: LeaderboardTableItem[] = [
   { id: 1, name: "Hydrogen" },
   { id: 2, name: "Helium" },
   { id: 3, name: "Lithium" },
@@ -32,18 +33,20 @@ const EXAMPLE_DATA: LeaderboardTableItem[] = [
   { id: 19, name: "Potassium" },
   { id: 20, name: "Calcium" }
 ];
-
+ */
 /**
  * Data source for the LeaderboardTable view. This class should
  * encapsulate all logic for fetching and manipulating the displayed data
  * (including sorting, pagination, and filtering).
  */
-export class LeaderboardTableDataSource extends DataSource<
-  LeaderboardTableItem
-> {
-  data: LeaderboardTableItem[] = EXAMPLE_DATA;
-
-  constructor(private paginator: MatPaginator, private sort: MatSort) {
+export class LeaderboardTableDataSource extends DataSource<LeaderboardRow> {
+  data: LeaderboardRow[] = [];
+  tableDataObservable: Observable<LeaderboardRow[]>;
+  constructor(
+    private paginator: MatPaginator,
+    private sort: MatSort,
+    private db: AngularFireDatabase
+  ) {
     super();
   }
 
@@ -52,17 +55,28 @@ export class LeaderboardTableDataSource extends DataSource<
    * the returned stream emits new items.
    * @returns A stream of the items to be rendered.
    */
-  connect(): Observable<LeaderboardTableItem[]> {
+  connect(): Observable<LeaderboardRow[]> {
     // Combine everything that affects the rendered data into one update
     // stream for the data-table to consume.
+    this.tableDataObservable = this.db
+      .list<LeaderboardRow>("/leaderboardRow")
+      .valueChanges()
+      .pipe(
+        flatMap(data => {
+          return observableOf(data.filter(x => x.active == true));
+        })
+      );
+    this.tableDataObservable.subscribe(data => {
+      this.data = data;
+    });
     const dataMutations = [
-      observableOf(this.data),
+      this.tableDataObservable,
       this.paginator.page,
       this.sort.sortChange
     ];
 
     // Set the paginators length
-    this.paginator.length = this.data.length;
+    this.paginator.length = 20; //constant
     this.paginator.pageSize = 10;
     return merge(...dataMutations).pipe(
       map(() => {
@@ -81,7 +95,7 @@ export class LeaderboardTableDataSource extends DataSource<
    * Paginate the data (client-side). If you're using server-side pagination,
    * this would be replaced by requesting the appropriate data from the server.
    */
-  private getPagedData(data: LeaderboardTableItem[]) {
+  private getPagedData(data: LeaderboardRow[]) {
     const startIndex = this.paginator.pageIndex * this.paginator.pageSize;
     return data.splice(startIndex, this.paginator.pageSize);
   }
@@ -90,7 +104,7 @@ export class LeaderboardTableDataSource extends DataSource<
    * Sort the data (client-side). If you're using server-side sorting,
    * this would be replaced by requesting the appropriate data from the server.
    */
-  private getSortedData(data: LeaderboardTableItem[]) {
+  private getSortedData(data: LeaderboardRow[]) {
     if (!this.sort.active || this.sort.direction === "") {
       return data;
     }
@@ -98,10 +112,10 @@ export class LeaderboardTableDataSource extends DataSource<
     return data.sort((a, b) => {
       const isAsc = this.sort.direction === "asc";
       switch (this.sort.active) {
-        case "name":
+        /*  case "name":
           return compare(a.name, b.name, isAsc);
         case "id":
-          return compare(+a.id, +b.id, isAsc);
+          return compare(+a.id, +b.id, isAsc); */
         default:
           return 0;
       }

@@ -1,3 +1,14 @@
-<p>
-  ring-view-comp works!
-</p>
+<svg height="512" width="512" viewBox="0 0 120 120">
+  <circle *ngFor="let val of values;let i=index" cx="60" cy="60" [attr.r]="getRadius(i)" fill="transparent" stroke-width="1"
+    stroke="#2e2d83" />
+  <g *ngFor="let val of values;let i=index">
+    <circle *ngFor="let node of ' '.repeat(getNodes(i)).split('');let x = index" [attr.cx]="getXCoord(i,x)" [attr.cy]="getYCoord(i,x)"
+      r="3" stroke="" stroke-width="0.5" [attr.fill]="getColor(i,x)" />
+  </g>
+  <g *ngFor="let val of values;let i=index">
+    <text style="fill:#fff;font-size:2.75px;font-family:Roboto;font-weight:700;" *ngFor="let n of ' '.repeat(getNodes(i)).split('');let y = index"
+      [attr.x]="getXCoord(i,y)" [attr.y]="getYCoord(i,y)" dx="-1.5" dy="1.2">
+      {{getText(i,y)}}
+    </text>
+  </g>
+</svg>

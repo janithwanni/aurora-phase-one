@@ -59,6 +59,7 @@ export class AuthenticatorService {
                 totalScore: 0
               };
               this.db.list("/teamProgress/team-" + teamID).push(teamProgress);
+
               this.router.navigateByUrl("prelim/rules");
             } else {
               console.log("NOT FRESH TEAM" + data);
