@@ -56,10 +56,16 @@ export class AuthenticatorService {
                 currentTime: 0,
                 timeLeft: 0,
                 totalDistance: 0,
-                totalScore: 0
+                totalScore: 0,
+                currentNode: 0
               };
               this.db.list("/teamProgress/team-" + teamID).push(teamProgress);
-
+              this.db
+                .object(
+                  "/leaderboardRow/leaderboard-row-" +
+                    email.split("@")[0].split("_")[1]
+                )
+                .update({ active: true });
               this.router.navigateByUrl("prelim/rules");
             } else {
               console.log("NOT FRESH TEAM" + data);

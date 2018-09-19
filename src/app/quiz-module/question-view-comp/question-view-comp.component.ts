@@ -22,6 +22,7 @@ export class QuestionViewCompComponent implements OnInit {
   timeLeft: number;
 
   currentRingLevel: number;
+  currentNode: number;
   totalDistance: number;
   totalScore: number;
   correctAnswer: string;
@@ -60,36 +61,19 @@ export class QuestionViewCompComponent implements OnInit {
         }
         progress[0].totalScore += progress[0].currentScore;
         progress[0].currentTime = this.timeLeft;
-
+        progress[0].timeLeft = this.competitionTimeLeft;
+        progress[0].currentNode = this.currentNode;
         console.log(progress[0]);
-        /* this.question.subscribe(questionData => {
-          console.log(questionData);
-          progress[0].currentRing = questionData.currentRingLevel;
-          progress[0].totalDistance += 1;
-          if (this.userAnswer == questionData.correctAnswerText) {
-            progress[0].currentScore =
-              ringMainScores[questionData.currentRingLevel - 1];
-          } else {
-            progress[0].currentScore =
-              ringPenalties[questionData.currentRingLevel - 1];
-          }
-          progress[0].totalScore += progress[0].currentScore;
-
-          progress[0].currentTime = this.timeLeft;
-          console.log("time left is ", this.timeLeft);
-          console.log(progress[0]);
-          this.db.object("/teamProgress/team-" + teamID).set(progress[0]);
-        }); */
+        //write the teamprogress
+        this.db.list("/teamProgress/" + progress[0].teamid).push(progress[0]);
+        this.db
+          .object("/team/" + progress[0].teamid)
+          .update({
+            totalDistance: progress[0].totalDistance,
+            totalScore: progress[0].totalScore
+          });
       });
-    /*  let teamProgress: TeamProgress = {
-      teamid: "team-" + teamID,
-      currentScore: 0,
-      currentRing: 0,
-      currentTime: 0,
-      timeLeft: 0,
-      totalDistance: 0,
-      totalScore: 0
-    }; */
+
     /* this.db
       .object("/teamCurrentQuestion/team-" + localStorage.getItem("teamID"))
       .update({ timeLeft: this.timeLeft });
@@ -99,7 +83,10 @@ export class QuestionViewCompComponent implements OnInit {
   }
 
   ngOnInit() {
-    if (localStorage.getItem("teamID") == null) {
+    if (
+      localStorage.getItem("teamID") == null ||
+      localStorage.getItem("teamID") == undefined
+    ) {
       //TEAM HAS NOT SIGNED IN YET
       console.log("NULL");
       this.router.navigateByUrl("");
@@ -110,8 +97,10 @@ export class QuestionViewCompComponent implements OnInit {
         .valueChanges()
         .pipe(
           flatMap(data => {
+            console.log("/teamCurrentQuestion/team-" + teamID);
             console.log(data);
             this.currentRingLevel = data.currentRingLevel;
+            this.currentNode = data.currentNodeNumber;
             this.correctAnswer = data.correctAnswerText;
 
             this.answerList[0] = data.answerOne;
@@ -153,6 +142,7 @@ export class QuestionViewCompComponent implements OnInit {
             this.db
               .object("/teamCurrentQuestion/team-" + teamID)
               .update({ timeExceeded: true });
+            //TODO: mark team progress here
             this.router.navigateByUrl("/quiz/timeout");
           }
           if (seconds <= 10) {
