@@ -28,7 +28,7 @@ export class QuestionViewCompComponent implements OnInit {
   correctAnswer: string;
   currentTime: number;
   competitionTimeLeft: number;
-
+  answerScore: number;
   checkAnswer(): void {
     let teamID = localStorage.getItem("teamID");
     const ringMainScores = { 4: 1, 3: 3, 2: 6, 1: 10 };
@@ -59,6 +59,7 @@ export class QuestionViewCompComponent implements OnInit {
         } else {
           progress[0].currentScore = ringPenalties[this.currentRingLevel - 1];
         }
+        this.answerScore = progress[0].currentScore;
         progress[0].totalScore += progress[0].currentScore;
         progress[0].currentTime = this.timeLeft;
         progress[0].timeLeft = this.competitionTimeLeft;
@@ -66,20 +67,21 @@ export class QuestionViewCompComponent implements OnInit {
         console.log(progress[0]);
         //write the teamprogress
         this.db.list("/teamProgress/" + progress[0].teamid).push(progress[0]);
-        this.db
-          .object("/team/" + progress[0].teamid)
-          .update({
-            totalDistance: progress[0].totalDistance,
-            totalScore: progress[0].totalScore
-          });
+        this.db.object("/team/" + progress[0].teamid).update({
+          totalDistance: progress[0].totalDistance,
+          totalScore: progress[0].totalScore
+        });
       });
 
-    /* this.db
-      .object("/teamCurrentQuestion/team-" + localStorage.getItem("teamID"))
+    this.db
+      .object("/teamCurrentQuestion/team-" + teamID)
       .update({ timeLeft: this.timeLeft });
     this.db
-      .object("/teamCurrentQuestion/team-" + localStorage.getItem("teamID"))
-      .update({ answerGiven: true }); */
+      .object("/teamCurrentQuestion/team-" + teamID)
+      .update({ answerGiven: true });
+  }
+  continueQuiz() {
+    this.router.navigateByUrl("quiz");
   }
 
   ngOnInit() {

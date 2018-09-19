@@ -39,11 +39,12 @@
       <div *ngIf="question | async as q">
         <div *ngIf="q.answerGiven">
           <div *ngIf="q.correctAnswer == userAnswer">
-            <h3> Hooray you are carrot</h3>
+            <h3> Your Answer is correct. Score is {{answerScore}}</h3>
           </div>
-          <div *ngIf="q.correctAnswre != userAnswer">
-            <h3> Dumb Donkey </h3>
+          <div *ngIf="q.correctAnswer != userAnswer">
+            <h3> Your Answer is incorrect Score is {{answerScore}} </h3>
           </div>
+          <button mat-raised-button color="primary" (click)="continueQuiz()">Continue</button>
         </div>
       </div>
     </div>
