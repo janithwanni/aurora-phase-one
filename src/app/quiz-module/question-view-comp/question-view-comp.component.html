@@ -18,7 +18,9 @@
       </h4>
       <br/>
     </span>
-    <img *ngIf="question | async as q" class="question-image" [attr.src]="q.questionImage" />
+    <!--  <div *ngIf="question | async as q">
+      <img *ngIf="q.image != '#'" class="question-image" [attr.src]="q.questionImage" />
+    </div> -->
     <br/>
     <hr/>
   </div>

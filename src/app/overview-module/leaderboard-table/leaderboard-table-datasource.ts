@@ -116,6 +116,8 @@ export class LeaderboardTableDataSource extends DataSource<LeaderboardRow> {
           return compare(a.name, b.name, isAsc);
         case "id":
           return compare(+a.id, +b.id, isAsc); */
+        case "score":
+          return compare(+a.score, +b.score, isAsc);
         default:
           return 0;
       }

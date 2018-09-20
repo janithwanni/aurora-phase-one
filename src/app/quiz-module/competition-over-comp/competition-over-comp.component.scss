@@ -1,0 +1,17 @@
+.centered-window {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  background: #fdfeff; /* fallback for old browsers */
+}
+.rules-content {
+  overflow-y: scroll;
+  height: 400px;
+  padding: 10px;
+}

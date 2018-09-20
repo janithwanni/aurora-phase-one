@@ -974,762 +974,761 @@
     "4": {
       "node-4-1": {
         "question-4-1-1": {
-          "answerFour": "Peanuts",
-          "answerOne": "Apples",
-          "answerThree": "Papaya",
-          "answerTwo": "Oranges",
-          "correctAnswerID": 3,
-          "questionImage": "",
-          "questionText": "Apples or Oranges? tiss the question-4-1-1"
+          "answerOne": "TELNET",
+          "answerTwo": "ARPANET",
+          "answerThree": "USENET",
+          "answerFour": "ALOHAnet",
+          "correctAnswerID": 2,
+          "questionImage": "#",
+          "questionText": "Which among the following was the first operational packet switching network, and the predecessor of the Internet?"
         },
         "question-4-1-2": {
-          "answerFour": "Peanuts",
-          "answerOne": "Apples",
-          "answerThree": "Papaya",
-          "answerTwo": "Oranges",
-          "correctAnswerID": 3,
-          "questionImage": "",
-          "questionText": "Apples or Oranges? tiss the question-4-1-2"
+          "answerOne": "Load the operating system in to RAM.",
+          "answerTwo": "The power on self test.",
+          "answerThree": "Activate the basic input/output system (BIOS).",
+          "answerFour": "Load application programs.",
+          "correctAnswerID": 4,
+          "questionImage": "#",
+          "questionText": "All of the following are steps involved in the boot process except"
         },
         "question-4-1-3": {
-          "answerFour": "Peanuts",
-          "answerOne": "Apples",
-          "answerThree": "Papaya",
-          "answerTwo": "Oranges",
+          "answerOne": "mbps",
+          "answerTwo": "gbps",
+          "answerThree": "None of the Above",
+          "answerFour": "All the above",
           "correctAnswerID": 2,
-          "questionImage": "",
-          "questionText": "Apples or Oranges? tiss the question-4-1-3"
+          "questionImage": "#",
+          "questionText": "Which of the following represents the fastest data transmission speed?"
         },
         "question-4-1-4": {
-          "answerFour": "Peanuts",
-          "answerOne": "Apples",
-          "answerThree": "Papaya",
-          "answerTwo": "Oranges",
+          "answerOne": "Select all",
+          "answerTwo": "Highlight a block of text",
+          "answerThree": "Delete something",
+          "answerFour": "Paste something",
           "correctAnswerID": 1,
-          "questionImage": "",
-          "questionText": "Apples or Oranges? tiss the question-4-1-4"
+          "questionImage": "#",
+          "questionText": "In MS Word command CTRL A is used to__________"
         }
       },
       "node-4-10": {
         "question-4-10-1": {
-          "answerFour": "Peanuts",
-          "answerOne": "Apples",
-          "answerThree": "Papaya",
-          "answerTwo": "Oranges",
-          "correctAnswerID": 2,
-          "questionImage": "",
-          "questionText": "Apples or Oranges? tiss the question-4-10-1"
+          "answerOne": "a modem",
+          "answerTwo": "a dial-up telephone line",
+          "answerThree": "software to operate",
+          "answerFour": "all the above",
+          "correctAnswerID": 4,
+          "questionImage": "#",
+          "questionText": "An Internet connection require____________"
         },
         "question-4-10-2": {
-          "answerFour": "Peanuts",
-          "answerOne": "Apples",
-          "answerThree": "Papaya",
-          "answerTwo": "Oranges",
-          "correctAnswerID": 1,
-          "questionImage": "",
-          "questionText": "Apples or Oranges? tiss the question-4-10-2"
+          "answerOne": "Redmond, Washington",
+          "answerTwo": "Tucson, Arizona",
+          "answerThree": "Santa Clara, California",
+          "answerFour": "Richmond, Virginia",
+          "correctAnswerID": 3,
+          "questionImage": "#",
+          "questionText": "Where is the headquarters of Intel located?"
         },
         "question-4-10-3": {
-          "answerFour": "Peanuts",
-          "answerOne": "Apples",
-          "answerThree": "Papaya",
-          "answerTwo": "Oranges",
-          "correctAnswerID": 1,
-          "questionImage": "",
-          "questionText": "Apples or Oranges? tiss the question-4-10-3"
+          "answerOne": "Click the edit comment commands on the Insert menu",
+          "answerTwo": "Click the Display comment command on the window menu",
+          "answerThree": "Position the mouse pointer over the cell",
+          "answerFour": "Click the comment command on the view menu",
+          "correctAnswerID": 3,
+          "questionImage": "#",
+          "questionText": "In Excel to view a cell comment"
         },
         "question-4-10-4": {
-          "answerFour": "Peanuts",
-          "answerOne": "Apples",
-          "answerThree": "Papaya",
-          "answerTwo": "Oranges",
-          "correctAnswerID": 2,
-          "questionImage": "",
-          "questionText": "Apples or Oranges? tiss the question-4-10-4"
+          "answerOne": "Infrared transmission",
+          "answerTwo": "Digitizing",
+          "answerThree": "Multiplexing",
+          "answerFour": "None of these",
+          "correctAnswerID": 3,
+          "questionImage": "#",
+          "questionText": "________________ is a technique that is used to send more than one call over a single line."
         }
       },
       "node-4-11": {
         "question-4-11-1": {
-          "answerFour": "Peanuts",
-          "answerOne": "Apples",
-          "answerThree": "Papaya",
-          "answerTwo": "Oranges",
-          "correctAnswerID": 1,
-          "questionImage": "",
-          "questionText": "Apples or Oranges? tiss the question-4-11-1"
+          "answerOne": "Software",
+          "answerTwo": "Hardware",
+          "answerThree": "Humanware",
+          "answerFour": "Firmware",
+          "correctAnswerID": 2,
+          "questionImage": "#",
+          "questionText": "The computer and all other physical components associated with it, are called as _____________"
         },
         "question-4-11-2": {
-          "answerFour": "Peanuts",
-          "answerOne": "Apples",
-          "answerThree": "Papaya",
-          "answerTwo": "Oranges",
+          "answerOne": "F10",
+          "answerTwo": "F11",
+          "answerThree": "F12",
+          "answerFour": "F9",
           "correctAnswerID": 3,
-          "questionImage": "",
-          "questionText": "Apples or Oranges? tiss the question-4-11-2"
+          "questionImage": "#",
+          "questionText": "Which shortcut key is used to view configure in Tally"
         },
         "question-4-11-3": {
-          "answerFour": "Peanuts",
-          "answerOne": "Apples",
-          "answerThree": "Papaya",
-          "answerTwo": "Oranges",
-          "correctAnswerID": 3,
-          "questionImage": "",
-          "questionText": "Apples or Oranges? tiss the question-4-11-3"
+          "answerOne": "WordPress",
+          "answerTwo": "Twitter",
+          "answerThree": "None of the Above",
+          "answerFour": "All the above",
+          "correctAnswerID": 2,
+          "questionImage": "#",
+          "questionText": "Which is an example for Microblogging website?"
         },
         "question-4-11-4": {
-          "answerFour": "Peanuts",
-          "answerOne": "Apples",
-          "answerThree": "Papaya",
-          "answerTwo": "Oranges",
+          "answerOne": "Select Format > Money from the menu",
+          "answerTwo": "Click the Currency Style button on the formatting toolbar",
+          "answerThree": "You have to retype everything and manually add the euro signs, commas, and decimals",
+          "answerFour": "None of these",
           "correctAnswerID": 2,
-          "questionImage": "",
-          "questionText": "Apples or Oranges? tiss the question-4-11-4"
+          "questionImage": "#",
+          "questionText": "The numbers in our worksheet look like this: You want them to look like this: �1,000. How can you accomplish this?"
         }
       },
       "node-4-12": {
         "question-4-12-1": {
-          "answerFour": "Peanuts",
-          "answerOne": "Apples",
-          "answerThree": "Papaya",
-          "answerTwo": "Oranges",
-          "correctAnswerID": 3,
-          "questionImage": "",
-          "questionText": "Apples or Oranges? tiss the question-4-12-1"
+          "answerOne": "Adware",
+          "answerTwo": "Donationware",
+          "answerThree": "All of the above",
+          "answerFour": "All the above",
+          "correctAnswerID": 1,
+          "questionImage": "#",
+          "questionText": "_____________ distributed as freeware, but it requires the user to view advertisements to use the software."
         },
         "question-4-12-2": {
-          "answerFour": "Peanuts",
-          "answerOne": "Apples",
-          "answerThree": "Papaya",
-          "answerTwo": "Oranges",
-          "correctAnswerID": 3,
-          "questionImage": "",
-          "questionText": "Apples or Oranges? tiss the question-4-12-2"
+          "answerOne": "Data elements in the database can be modified by changing the data dictionary.",
+          "answerTwo": "The data dictionary contains the name and description of each data element.",
+          "answerThree": "The data dictionary is a tool used exclusively by the database administrator.",
+          "answerFour": "None of these",
+          "correctAnswerID": 1,
+          "questionImage": "#",
+          "questionText": "Which one of the following statements is false?"
         },
         "question-4-12-3": {
-          "answerFour": "Peanuts",
-          "answerOne": "Apples",
-          "answerThree": "Papaya",
-          "answerTwo": "Oranges",
-          "correctAnswerID": 2,
-          "questionImage": "",
-          "questionText": "Apples or Oranges? tiss the question-4-12-3"
+          "answerOne": "To add table",
+          "answerTwo": "To store objects created in other programs",
+          "answerThree": "For long text entries",
+          "answerFour": "For shout text entries of no more than 255 characters",
+          "correctAnswerID": 3,
+          "questionImage": "#",
+          "questionText": "What is the memo data type field used for?"
         },
         "question-4-12-4": {
-          "answerFour": "Peanuts",
-          "answerOne": "Apples",
-          "answerThree": "Papaya",
-          "answerTwo": "Oranges",
-          "correctAnswerID": 1,
-          "questionImage": "",
-          "questionText": "Apples or Oranges? tiss the question-4-12-4"
+          "answerOne": "Trash can",
+          "answerTwo": "Recycle bin",
+          "answerThree": "Deleted Files",
+          "answerFour": "None of above",
+          "correctAnswerID": 2,
+          "questionImage": "#",
+          "questionText": "Any files deleted in Windows goes into ____________"
         }
       },
       "node-4-13": {
         "question-4-13-1": {
-          "answerFour": "Peanuts",
-          "answerOne": "Apples",
-          "answerThree": "Papaya",
-          "answerTwo": "Oranges",
+          "answerOne": "The Scan Disk utility begins to run.",
+          "answerTwo": "The BIOS identification process occurs.",
+          "answerThree": "Memory chips are checked to ensure they are working properly.",
+          "answerFour": "All the above",
           "correctAnswerID": 1,
-          "questionImage": "",
-          "questionText": "Apples or Oranges? tiss the question-4-13-1"
+          "questionImage": "#",
+          "questionText": "Which of the following does NOT occur during the Power-On Self-Test (POST)?"
         },
         "question-4-13-2": {
-          "answerFour": "Peanuts",
-          "answerOne": "Apples",
-          "answerThree": "Papaya",
-          "answerTwo": "Oranges",
-          "correctAnswerID": 1,
-          "questionImage": "",
-          "questionText": "Apples or Oranges? tiss the question-4-13-2"
+          "answerOne": "gathering data",
+          "answerTwo": "processing data into information",
+          "answerThree": "analyzing the data or information",
+          "answerFour": "storing the data or information",
+          "correctAnswerID": 3,
+          "questionImage": "#",
+          "questionText": "Which of the following is NOT one of the four major data processing functions of a computer?"
         },
         "question-4-13-3": {
-          "answerFour": "Peanuts",
-          "answerOne": "Apples",
-          "answerThree": "Papaya",
-          "answerTwo": "Oranges",
+          "answerOne": "0",
+          "answerTwo": "1",
+          "answerThree": "both (a) and (b)",
+          "answerFour": "None of these",
           "correctAnswerID": 2,
-          "questionImage": "",
-          "questionText": "Apples or Oranges? tiss the question-4-13-3"
+          "questionImage": "#",
+          "questionText": "address can be used to specify a broadcast and map to hardware broadcast if available. By conversion broadcast address has hosted with all bitsS"
         },
         "question-4-13-4": {
-          "answerFour": "Peanuts",
-          "answerOne": "Apples",
-          "answerThree": "Papaya",
-          "answerTwo": "Oranges",
-          "correctAnswerID": 2,
-          "questionImage": "",
-          "questionText": "Apples or Oranges? tiss the question-4-13-4"
+          "answerOne": "Command.com",
+          "answerTwo": "Io.sys",
+          "answerThree": "Msdos.sys",
+          "answerFour": "All of above",
+          "correctAnswerID": 4,
+          "questionImage": "#",
+          "questionText": "Essential files of MS DOS are"
         }
       },
       "node-4-14": {
         "question-4-14-1": {
-          "answerFour": "Peanuts",
-          "answerOne": "Apples",
-          "answerThree": "Papaya",
-          "answerTwo": "Oranges",
-          "correctAnswerID": 3,
-          "questionImage": "",
-          "questionText": "Apples or Oranges? tiss the question-4-14-1"
+          "answerOne": "TELNET",
+          "answerTwo": "ARPANET",
+          "answerThree": "USENET",
+          "answerFour": "ALOHAnet",
+          "correctAnswerID": 2,
+          "questionImage": "#",
+          "questionText": "Which among the following was the first operational packet switching network, and the predecessor of the Internet?"
         },
         "question-4-14-2": {
-          "answerFour": "Peanuts",
-          "answerOne": "Apples",
-          "answerThree": "Papaya",
-          "answerTwo": "Oranges",
-          "correctAnswerID": 3,
-          "questionImage": "",
-          "questionText": "Apples or Oranges? tiss the question-4-14-2"
+          "answerOne": "Load the operating system in to RAM.",
+          "answerTwo": "The power on self test.",
+          "answerThree": "Activate the basic input/output system (BIOS).",
+          "answerFour": "Load application programs.",
+          "correctAnswerID": 4,
+          "questionImage": "#",
+          "questionText": "All of the following are steps involved in the boot process except"
         },
         "question-4-14-3": {
-          "answerFour": "Peanuts",
-          "answerOne": "Apples",
-          "answerThree": "Papaya",
-          "answerTwo": "Oranges",
+          "answerOne": "mbps",
+          "answerTwo": "gbps",
+          "answerThree": "None of the Above",
+          "answerFour": "All the above",
           "correctAnswerID": 2,
-          "questionImage": "",
-          "questionText": "Apples or Oranges? tiss the question-4-14-3"
+          "questionImage": "#",
+          "questionText": "Which of the following represents the fastest data transmission speed?"
         },
         "question-4-14-4": {
-          "answerFour": "Peanuts",
-          "answerOne": "Apples",
-          "answerThree": "Papaya",
-          "answerTwo": "Oranges",
-          "correctAnswerID": 2,
-          "questionImage": "",
-          "questionText": "Apples or Oranges? tiss the question-4-14-4"
+          "answerOne": "Select all",
+          "answerTwo": "Highlight a block of text",
+          "answerThree": "Delete something",
+          "answerFour": "Paste something",
+          "correctAnswerID": 1,
+          "questionImage": "#",
+          "questionText": "In MS Word command CTRL A is used to__________"
         }
       },
       "node-4-15": {
         "question-4-15-1": {
-          "answerFour": "Peanuts",
-          "answerOne": "Apples",
-          "answerThree": "Papaya",
-          "answerTwo": "Oranges",
-          "correctAnswerID": 1,
-          "questionImage": "",
-          "questionText": "Apples or Oranges? tiss the question-4-15-1"
+          "answerOne": "a modem",
+          "answerTwo": "a dial-up telephone line",
+          "answerThree": "software to operate",
+          "answerFour": "all the above",
+          "correctAnswerID": 4,
+          "questionImage": "#",
+          "questionText": "An Internet connection require____________"
         },
         "question-4-15-2": {
-          "answerFour": "Peanuts",
-          "answerOne": "Apples",
-          "answerThree": "Papaya",
-          "answerTwo": "Oranges",
+          "answerOne": "Redmond, Washington",
+          "answerTwo": "Tucson, Arizona",
+          "answerThree": "Santa Clara, California",
+          "answerFour": "Richmond, Virginia",
           "correctAnswerID": 3,
-          "questionImage": "",
-          "questionText": "Apples or Oranges? tiss the question-4-15-2"
+          "questionImage": "#",
+          "questionText": "Where is the headquarters of Intel located?"
         },
         "question-4-15-3": {
-          "answerFour": "Peanuts",
-          "answerOne": "Apples",
-          "answerThree": "Papaya",
-          "answerTwo": "Oranges",
-          "correctAnswerID": 2,
-          "questionImage": "",
-          "questionText": "Apples or Oranges? tiss the question-4-15-3"
+          "answerOne": "Click the edit comment commands on the Insert menu",
+          "answerTwo": "Click the Display comment command on the window menu",
+          "answerThree": "Position the mouse pointer over the cell",
+          "answerFour": "Click the comment command on the view menu",
+          "correctAnswerID": 3,
+          "questionImage": "#",
+          "questionText": "In Excel to view a cell comment"
         },
         "question-4-15-4": {
-          "answerFour": "Peanuts",
-          "answerOne": "Apples",
-          "answerThree": "Papaya",
-          "answerTwo": "Oranges",
+          "answerOne": "Infrared transmission",
+          "answerTwo": "Digitizing",
+          "answerThree": "Multiplexing",
+          "answerFour": "None of these",
           "correctAnswerID": 3,
-          "questionImage": "",
-          "questionText": "Apples or Oranges? tiss the question-4-15-4"
+          "questionImage": "#",
+          "questionText": "________________ is a technique that is used to send more than one call over a single line."
         }
       },
       "node-4-16": {
         "question-4-16-1": {
-          "answerFour": "Peanuts",
-          "answerOne": "Apples",
-          "answerThree": "Papaya",
-          "answerTwo": "Oranges",
-          "correctAnswerID": 1,
-          "questionImage": "",
-          "questionText": "Apples or Oranges? tiss the question-4-16-1"
+          "answerOne": "Software",
+          "answerTwo": "Hardware",
+          "answerThree": "Humanware",
+          "answerFour": "Firmware",
+          "correctAnswerID": 2,
+          "questionImage": "#",
+          "questionText": "The computer and all other physical components associated with it, are called as _____________"
         },
         "question-4-16-2": {
-          "answerFour": "Peanuts",
-          "answerOne": "Apples",
-          "answerThree": "Papaya",
-          "answerTwo": "Oranges",
-          "correctAnswerID": 2,
-          "questionImage": "",
-          "questionText": "Apples or Oranges? tiss the question-4-16-2"
+          "answerOne": "F10",
+          "answerTwo": "F11",
+          "answerThree": "F12",
+          "answerFour": "F9",
+          "correctAnswerID": 3,
+          "questionText": "Which shortcut key is used to view configure in Tally"
         },
         "question-4-16-3": {
-          "answerFour": "Peanuts",
-          "answerOne": "Apples",
-          "answerThree": "Papaya",
-          "answerTwo": "Oranges",
-          "correctAnswerID": 1,
-          "questionImage": "",
-          "questionText": "Apples or Oranges? tiss the question-4-16-3"
+          "answerOne": "WordPress",
+          "answerTwo": "Twitter",
+          "answerThree": "None of the Above",
+          "answerFour": "All the above",
+          "correctAnswerID": 2,
+          "questionImage": "#",
+          "questionText": "Which is an example for Microblogging website?"
         },
         "question-4-16-4": {
-          "answerFour": "Peanuts",
-          "answerOne": "Apples",
-          "answerThree": "Papaya",
-          "answerTwo": "Oranges",
-          "correctAnswerID": 3,
-          "questionImage": "",
-          "questionText": "Apples or Oranges? tiss the question-4-16-4"
+          "answerOne": "Select Format > Money from the menu",
+          "answerTwo": "Click the Currency Style button on the formatting toolbar",
+          "answerThree": "You have to retype everything and manually add the euro signs, commas, and decimals",
+          "answerFour": "None of these",
+          "correctAnswerID": 2,
+          "questionImage": "#",
+          "questionText": "The numbers in our worksheet look like this: You want them to look like this: �1,000. How can you accomplish this?"
         }
       },
       "node-4-17": {
         "question-4-17-1": {
-          "answerFour": "Peanuts",
-          "answerOne": "Apples",
-          "answerThree": "Papaya",
-          "answerTwo": "Oranges",
+          "answerOne": "Adware",
+          "answerTwo": "Donationware",
+          "answerThree": "All of the above",
+          "answerFour": "All the above",
           "correctAnswerID": 1,
-          "questionImage": "",
-          "questionText": "Apples or Oranges? tiss the question-4-17-1"
+          "questionImage": "#",
+          "questionText": "_____________ distributed as freeware, but it requires the user to view advertisements to use the software."
         },
         "question-4-17-2": {
-          "answerFour": "Peanuts",
-          "answerOne": "Apples",
-          "answerThree": "Papaya",
-          "answerTwo": "Oranges",
-          "correctAnswerID": 3,
-          "questionImage": "",
-          "questionText": "Apples or Oranges? tiss the question-4-17-2"
+          "answerOne": "Data elements in the database can be modified by changing the data dictionary.",
+          "answerTwo": "The data dictionary contains the name and description of each data element.",
+          "answerThree": "The data dictionary is a tool used exclusively by the database administrator.",
+          "answerFour": "None of these",
+          "correctAnswerID": 1,
+          "questionImage": "#",
+          "questionText": "Which one of the following statements is false?"
         },
         "question-4-17-3": {
-          "answerFour": "Peanuts",
-          "answerOne": "Apples",
-          "answerThree": "Papaya",
-          "answerTwo": "Oranges",
-          "correctAnswerID": 1,
-          "questionImage": "",
-          "questionText": "Apples or Oranges? tiss the question-4-17-3"
+          "answerOne": "To add table",
+          "answerTwo": "To store objects created in other programs",
+          "answerThree": "For long text entries",
+          "answerFour": "For shout text entries of no more than 255 characters",
+          "correctAnswerID": 3,
+          "questionImage": "#",
+          "questionText": "What is the memo data type field used for?"
         },
         "question-4-17-4": {
-          "answerFour": "Peanuts",
-          "answerOne": "Apples",
-          "answerThree": "Papaya",
-          "answerTwo": "Oranges",
-          "correctAnswerID": 3,
-          "questionImage": "",
-          "questionText": "Apples or Oranges? tiss the question-4-17-4"
+          "answerOne": "Trash can",
+          "answerTwo": "Recycle bin",
+          "answerThree": "Deleted Files",
+          "answerFour": "None of above",
+          "correctAnswerID": 2,
+          "questionImage": "#",
+          "questionText": "Any files deleted in Windows goes into ____________"
         }
       },
       "node-4-18": {
         "question-4-18-1": {
-          "answerFour": "Peanuts",
-          "answerOne": "Apples",
-          "answerThree": "Papaya",
-          "answerTwo": "Oranges",
-          "correctAnswerID": 2,
-          "questionImage": "",
-          "questionText": "Apples or Oranges? tiss the question-4-18-1"
+          "answerOne": "The Scan Disk utility begins to run.",
+          "answerTwo": "The BIOS identification process occurs.",
+          "answerThree": "Memory chips are checked to ensure they are working properly.",
+          "answerFour": "All the above",
+          "correctAnswerID": 1,
+          "questionImage": "#",
+          "questionText": "Which of the following does NOT occur during the Power-On Self-Test (POST)?"
         },
         "question-4-18-2": {
-          "answerFour": "Peanuts",
-          "answerOne": "Apples",
-          "answerThree": "Papaya",
-          "answerTwo": "Oranges",
-          "correctAnswerID": 1,
-          "questionImage": "",
-          "questionText": "Apples or Oranges? tiss the question-4-18-2"
+          "answerOne": "gathering data",
+          "answerTwo": "processing data into information",
+          "answerThree": "analyzing the data or information",
+          "answerFour": "storing the data or information",
+          "correctAnswerID": 3,
+          "questionImage": "#",
+          "questionText": "Which of the following is NOT one of the four major data processing functions of a computer?"
         },
         "question-4-18-3": {
-          "answerFour": "Peanuts",
-          "answerOne": "Apples",
-          "answerThree": "Papaya",
-          "answerTwo": "Oranges",
-          "correctAnswerID": 1,
-          "questionImage": "",
-          "questionText": "Apples or Oranges? tiss the question-4-18-3"
+          "answerOne": "0",
+          "answerTwo": "1",
+          "answerThree": "both (a) and (b)",
+          "answerFour": "None of these",
+          "correctAnswerID": 2,
+          "questionImage": "#",
+          "questionText": "address can be used to specify a broadcast and map to hardware broadcast if available. By conversion broadcast address has hosted with all bitsS"
         },
         "question-4-18-4": {
-          "answerFour": "Peanuts",
-          "answerOne": "Apples",
-          "answerThree": "Papaya",
-          "answerTwo": "Oranges",
-          "correctAnswerID": 1,
-          "questionImage": "",
-          "questionText": "Apples or Oranges? tiss the question-4-18-4"
+          "answerOne": "Command.com",
+          "answerTwo": "Io.sys",
+          "answerThree": "Msdos.sys",
+          "answerFour": "All of above",
+          "correctAnswerID": 4,
+          "questionImage": "#",
+          "questionText": "Essential files of MS DOS are"
         }
       },
       "node-4-19": {
         "question-4-19-1": {
-          "answerFour": "Peanuts",
-          "answerOne": "Apples",
-          "answerThree": "Papaya",
-          "answerTwo": "Oranges",
-          "correctAnswerID": 3,
-          "questionImage": "",
-          "questionText": "Apples or Oranges? tiss the question-4-19-1"
+          "answerOne": "TELNET",
+          "answerTwo": "ARPANET",
+          "answerThree": "USENET",
+          "answerFour": "ALOHAnet",
+          "correctAnswerID": 2,
+          "questionImage": "#",
+          "questionText": "Which among the following was the first operational packet switching network, and the predecessor of the Internet?"
         },
         "question-4-19-2": {
-          "answerFour": "Peanuts",
-          "answerOne": "Apples",
-          "answerThree": "Papaya",
-          "answerTwo": "Oranges",
-          "correctAnswerID": 2,
-          "questionImage": "",
-          "questionText": "Apples or Oranges? tiss the question-4-19-2"
+          "answerOne": "Load the operating system in to RAM.",
+          "answerTwo": "The power on self test.",
+          "answerThree": "Activate the basic input/output system (BIOS).",
+          "answerFour": "Load application programs.",
+          "correctAnswerID": 4,
+          "questionImage": "#",
+          "questionText": "All of the following are steps involved in the boot process except"
         },
         "question-4-19-3": {
-          "answerFour": "Peanuts",
-          "answerOne": "Apples",
-          "answerThree": "Papaya",
-          "answerTwo": "Oranges",
+          "answerOne": "mbps",
+          "answerTwo": "gbps",
+          "answerThree": "None of the Above",
+          "answerFour": "All the above",
           "correctAnswerID": 2,
-          "questionImage": "",
-          "questionText": "Apples or Oranges? tiss the question-4-19-3"
+          "questionImage": "#",
+          "questionText": "Which of the following represents the fastest data transmission speed?"
         },
         "question-4-19-4": {
-          "answerFour": "Peanuts",
-          "answerOne": "Apples",
-          "answerThree": "Papaya",
-          "answerTwo": "Oranges",
-          "correctAnswerID": 2,
-          "questionImage": "",
-          "questionText": "Apples or Oranges? tiss the question-4-19-4"
+          "answerOne": "Select all",
+          "answerTwo": "Highlight a block of text",
+          "answerThree": "Delete something",
+          "answerFour": "Paste something",
+          "correctAnswerID": 1,
+          "questionImage": "#",
+          "questionText": "In MS Word command CTRL A is used to__________"
         }
       },
       "node-4-2": {
         "question-4-2-1": {
-          "answerFour": "Peanuts",
-          "answerOne": "Apples",
-          "answerThree": "Papaya",
-          "answerTwo": "Oranges",
-          "correctAnswerID": 2,
-          "questionImage": "",
-          "questionText": "Apples or Oranges? tiss the question-4-2-1"
+          "answerOne": "a modem",
+          "answerTwo": "a dial-up telephone line",
+          "answerThree": "software to operate",
+          "answerFour": "all the above",
+          "correctAnswerID": 4,
+          "questionImage": "#",
+          "questionText": "An Internet connection require____________"
         },
         "question-4-2-2": {
-          "answerFour": "Peanuts",
-          "answerOne": "Apples",
-          "answerThree": "Papaya",
-          "answerTwo": "Oranges",
+          "answerOne": "Redmond, Washington",
+          "answerTwo": "Tucson, Arizona",
+          "answerThree": "Santa Clara, California",
+          "answerFour": "Richmond, Virginia",
           "correctAnswerID": 3,
-          "questionImage": "",
-          "questionText": "Apples or Oranges? tiss the question-4-2-2"
+          "questionImage": "#",
+          "questionText": "Where is the headquarters of Intel located?"
         },
         "question-4-2-3": {
-          "answerFour": "Peanuts",
-          "answerOne": "Apples",
-          "answerThree": "Papaya",
-          "answerTwo": "Oranges",
-          "correctAnswerID": 2,
-          "questionImage": "",
-          "questionText": "Apples or Oranges? tiss the question-4-2-3"
+          "answerOne": "Click the edit comment commands on the Insert menu",
+          "answerTwo": "Click the Display comment command on the window menu",
+          "answerThree": "Position the mouse pointer over the cell",
+          "answerFour": "Click the comment command on the view menu",
+          "correctAnswerID": 3,
+          "questionImage": "#",
+          "questionText": "In Excel to view a cell comment"
         },
         "question-4-2-4": {
-          "answerFour": "Peanuts",
-          "answerOne": "Apples",
-          "answerThree": "Papaya",
-          "answerTwo": "Oranges",
+          "answerOne": "Infrared transmission",
+          "answerTwo": "Digitizing",
+          "answerThree": "Multiplexing",
+          "answerFour": "None of these",
           "correctAnswerID": 3,
-          "questionImage": "",
-          "questionText": "Apples or Oranges? tiss the question-4-2-4"
+          "questionImage": "#",
+          "questionText": "________________ is a technique that is used to send more than one call over a single line."
         }
       },
       "node-4-20": {
         "question-4-20-1": {
-          "answerFour": "Peanuts",
-          "answerOne": "Apples",
-          "answerThree": "Papaya",
-          "answerTwo": "Oranges",
+          "answerOne": "Software",
+          "answerTwo": "Hardware",
+          "answerThree": "Humanware",
+          "answerFour": "Firmware",
           "correctAnswerID": 2,
-          "questionImage": "",
-          "questionText": "Apples or Oranges? tiss the question-4-20-1"
+          "questionImage": "#",
+          "questionText": "The computer and all other physical components associated with it, are called as _____________"
         },
         "question-4-20-2": {
-          "answerFour": "Peanuts",
-          "answerOne": "Apples",
-          "answerThree": "Papaya",
-          "answerTwo": "Oranges",
-          "correctAnswerID": 1,
-          "questionImage": "",
-          "questionText": "Apples or Oranges? tiss the question-4-20-2"
+          "answerOne": "F10",
+          "answerTwo": "F11",
+          "answerThree": "F12",
+          "answerFour": "F9",
+          "correctAnswerID": 3,
+          "questionImage": "#",
+          "questionText": "Which shortcut key is used to view configure in Tally"
         },
         "question-4-20-3": {
-          "answerFour": "Peanuts",
-          "answerOne": "Apples",
-          "answerThree": "Papaya",
-          "answerTwo": "Oranges",
+          "answerOne": "WordPress",
+          "answerTwo": "Twitter",
+          "answerThree": "None of the Above",
+          "answerFour": "All the above",
           "correctAnswerID": 2,
-          "questionImage": "",
-          "questionText": "Apples or Oranges? tiss the question-4-20-3"
+          "questionImage": "#",
+          "questionText": "Which is an example for Microblogging website?"
         },
         "question-4-20-4": {
-          "answerFour": "Peanuts",
-          "answerOne": "Apples",
-          "answerThree": "Papaya",
-          "answerTwo": "Oranges",
-          "correctAnswerID": 1,
-          "questionImage": "",
-          "questionText": "Apples or Oranges? tiss the question-4-20-4"
+          "answerOne": "Select Format > Money from the menu",
+          "answerTwo": "Click the Currency Style button on the formatting toolbar",
+          "answerThree": "You have to retype everything and manually add the euro signs, commas, and decimals",
+          "answerFour": "None of these",
+          "correctAnswerID": 2,
+          "questionImage": "#",
+          "questionText": "The numbers in our worksheet look like this: You want them to look like this: �1,000. How can you accomplish this?"
         }
       },
       "node-4-3": {
         "question-4-3-1": {
-          "answerFour": "Peanuts",
-          "answerOne": "Apples",
-          "answerThree": "Papaya",
-          "answerTwo": "Oranges",
-          "correctAnswerID": 2,
-          "questionImage": "",
-          "questionText": "Apples or Oranges? tiss the question-4-3-1"
+          "answerOne": "Adware",
+          "answerTwo": "Donationware",
+          "answerThree": "All of the above",
+          "answerFour": "All the above",
+          "correctAnswerID": 1,
+          "questionImage": "#",
+          "questionText": "_____________ distributed as freeware, but it requires the user to view advertisements to use the software."
         },
         "question-4-3-2": {
-          "answerFour": "Peanuts",
-          "answerOne": "Apples",
-          "answerThree": "Papaya",
-          "answerTwo": "Oranges",
+          "answerOne": "Data elements in the database can be modified by changing the data dictionary.",
+          "answerTwo": "The data dictionary contains the name and description of each data element.",
+          "answerThree": "The data dictionary is a tool used exclusively by the database administrator.",
+          "answerFour": "None of these",
           "correctAnswerID": 1,
-          "questionImage": "",
-          "questionText": "Apples or Oranges? tiss the question-4-3-2"
+          "questionImage": "#",
+          "questionText": "Which one of the following statements is false?"
         },
         "question-4-3-3": {
-          "answerFour": "Peanuts",
-          "answerOne": "Apples",
-          "answerThree": "Papaya",
-          "answerTwo": "Oranges",
-          "correctAnswerID": 1,
-          "questionImage": "",
-          "questionText": "Apples or Oranges? tiss the question-4-3-3"
+          "answerOne": "To add table",
+          "answerTwo": "To store objects created in other programs",
+          "answerThree": "For long text entries",
+          "answerFour": "For shout text entries of no more than 255 characters",
+          "correctAnswerID": 3,
+          "questionImage": "#",
+          "questionText": "What is the memo data type field used for?"
         },
         "question-4-3-4": {
-          "answerFour": "Peanuts",
-          "answerOne": "Apples",
-          "answerThree": "Papaya",
-          "answerTwo": "Oranges",
-          "correctAnswerID": 1,
-          "questionImage": "",
-          "questionText": "Apples or Oranges? tiss the question-4-3-4"
+          "answerOne": "Trash can",
+          "answerTwo": "Recycle bin",
+          "answerThree": "Deleted Files",
+          "answerFour": "None of above",
+          "correctAnswerID": 2,
+          "questionImage": "#",
+          "questionText": "Any files deleted in Windows goes into ____________"
         }
       },
       "node-4-4": {
         "question-4-4-1": {
-          "answerFour": "Peanuts",
-          "answerOne": "Apples",
-          "answerThree": "Papaya",
-          "answerTwo": "Oranges",
-          "correctAnswerID": 3,
-          "questionImage": "",
-          "questionText": "Apples or Oranges? tiss the question-4-4-1"
+          "answerOne": "The Scan Disk utility begins to run.",
+          "answerTwo": "The BIOS identification process occurs.",
+          "answerThree": "Memory chips are checked to ensure they are working properly.",
+          "answerFour": "All the above",
+          "correctAnswerID": 1,
+          "questionImage": "#",
+          "questionText": "Which of the following does NOT occur during the Power-On Self-Test (POST)?"
         },
         "question-4-4-2": {
-          "answerFour": "Peanuts",
-          "answerOne": "Apples",
-          "answerThree": "Papaya",
-          "answerTwo": "Oranges",
+          "answerOne": "gathering data",
+          "answerTwo": "processing data into information",
+          "answerThree": "analyzing the data or information",
+          "answerFour": "storing the data or information",
           "correctAnswerID": 3,
-          "questionImage": "",
-          "questionText": "Apples or Oranges? tiss the question-4-4-2"
+          "questionImage": "#",
+          "questionText": "Which of the following is NOT one of the four major data processing functions of a computer?"
         },
         "question-4-4-3": {
-          "answerFour": "Peanuts",
-          "answerOne": "Apples",
-          "answerThree": "Papaya",
-          "answerTwo": "Oranges",
-          "correctAnswerID": 3,
-          "questionImage": "",
-          "questionText": "Apples or Oranges? tiss the question-4-4-3"
+          "answerOne": "0",
+          "answerTwo": "1",
+          "answerThree": "both (a) and (b)",
+          "answerFour": "None of these",
+          "correctAnswerID": 2,
+          "questionImage": "#",
+          "questionText": "address can be used to specify a broadcast and map to hardware broadcast if available. By conversion broadcast address has hosted with all bitsS"
         },
         "question-4-4-4": {
-          "answerFour": "Peanuts",
-          "answerOne": "Apples",
-          "answerThree": "Papaya",
-          "answerTwo": "Oranges",
-          "correctAnswerID": 2,
-          "questionImage": "",
-          "questionText": "Apples or Oranges? tiss the question-4-4-4"
+          "answerOne": "Command.com",
+          "answerTwo": "Io.sys",
+          "answerThree": "Msdos.sys",
+          "answerFour": "All of above",
+          "correctAnswerID": 4,
+          "questionImage": "#",
+          "questionText": "Essential files of MS DOS are"
         }
       },
       "node-4-5": {
         "question-4-5-1": {
-          "answerFour": "Peanuts",
-          "answerOne": "Apples",
-          "answerThree": "Papaya",
-          "answerTwo": "Oranges",
-          "correctAnswerID": 1,
-          "questionImage": "",
-          "questionText": "Apples or Oranges? tiss the question-4-5-1"
+          "answerOne": "TELNET",
+          "answerTwo": "ARPANET",
+          "answerThree": "USENET",
+          "answerFour": "ALOHAnet",
+          "correctAnswerID": 2,
+          "questionImage": "#",
+          "questionText": "Which among the following was the first operational packet switching network, and the predecessor of the Internet?"
         },
         "question-4-5-2": {
-          "answerFour": "Peanuts",
-          "answerOne": "Apples",
-          "answerThree": "Papaya",
-          "answerTwo": "Oranges",
-          "correctAnswerID": 2,
-          "questionImage": "",
-          "questionText": "Apples or Oranges? tiss the question-4-5-2"
+          "answerOne": "Load the operating system in to RAM.",
+          "answerTwo": "The power on self test.",
+          "answerThree": "Activate the basic input/output system (BIOS).",
+          "answerFour": "Load application programs.",
+          "correctAnswerID": 4,
+          "questionImage": "#",
+          "questionText": "All of the following are steps involved in the boot process except"
         },
         "question-4-5-3": {
-          "answerFour": "Peanuts",
-          "answerOne": "Apples",
-          "answerThree": "Papaya",
-          "answerTwo": "Oranges",
-          "correctAnswerID": 1,
-          "questionImage": "",
-          "questionText": "Apples or Oranges? tiss the question-4-5-3"
+          "answerOne": "mbps",
+          "answerTwo": "gbps",
+          "answerThree": "None of the Above",
+          "answerFour": "All the above",
+          "correctAnswerID": 2,
+          "questionImage": "#",
+          "questionText": "Which of the following represents the fastest data transmission speed?"
         },
         "question-4-5-4": {
-          "answerFour": "Peanuts",
-          "answerOne": "Apples",
-          "answerThree": "Papaya",
-          "answerTwo": "Oranges",
+          "answerOne": "Select all",
+          "answerTwo": "Highlight a block of text",
+          "answerThree": "Delete something",
+          "answerFour": "Paste something",
           "correctAnswerID": 1,
-          "questionImage": "",
-          "questionText": "Apples or Oranges? tiss the question-4-5-4"
+          "questionImage": "#",
+          "questionText": "In MS Word command CTRL A is used to__________"
         }
       },
       "node-4-6": {
         "question-4-6-1": {
-          "answerFour": "Peanuts",
-          "answerOne": "Apples",
-          "answerThree": "Papaya",
-          "answerTwo": "Oranges",
-          "correctAnswerID": 1,
-          "questionImage": "",
-          "questionText": "Apples or Oranges? tiss the question-4-6-1"
+          "answerOne": "a modem",
+          "answerTwo": "a dial-up telephone line",
+          "answerThree": "software to operate",
+          "answerFour": "all the above",
+          "correctAnswerID": 4,
+          "questionImage": "#",
+          "questionText": "An Internet connection require____________"
         },
         "question-4-6-2": {
-          "answerFour": "Peanuts",
-          "answerOne": "Apples",
-          "answerThree": "Papaya",
-          "answerTwo": "Oranges",
-          "correctAnswerID": 2,
-          "questionImage": "",
-          "questionText": "Apples or Oranges? tiss the question-4-6-2"
+          "answerOne": "Redmond, Washington",
+          "answerTwo": "Tucson, Arizona",
+          "answerThree": "Santa Clara, California",
+          "answerFour": "Richmond, Virginia",
+          "correctAnswerID": 3,
+          "questionImage": "#",
+          "questionText": "Where is the headquarters of Intel located?"
         },
         "question-4-6-3": {
-          "answerFour": "Peanuts",
-          "answerOne": "Apples",
-          "answerThree": "Papaya",
-          "answerTwo": "Oranges",
-          "correctAnswerID": 1,
-          "questionImage": "",
-          "questionText": "Apples or Oranges? tiss the question-4-6-3"
+          "answerOne": "Click the edit comment commands on the Insert menu",
+          "answerTwo": "Click the Display comment command on the window menu",
+          "answerThree": "Position the mouse pointer over the cell",
+          "answerFour": "Click the comment command on the view menu",
+          "correctAnswerID": 3,
+          "questionImage": "#",
+          "questionText": "In Excel to view a cell comment"
         },
         "question-4-6-4": {
-          "answerFour": "Peanuts",
-          "answerOne": "Apples",
-          "answerThree": "Papaya",
-          "answerTwo": "Oranges",
-          "correctAnswerID": 2,
-          "questionImage": "",
-          "questionText": "Apples or Oranges? tiss the question-4-6-4"
+          "answerOne": "Infrared transmission",
+          "answerTwo": "Digitizing",
+          "answerThree": "Multiplexing",
+          "answerFour": "None of these",
+          "correctAnswerID": 3,
+          "questionImage": "#",
+          "questionText": "________________ is a technique that is used to send more than one call over a single line."
         }
       },
       "node-4-7": {
         "question-4-7-1": {
-          "answerFour": "Peanuts",
-          "answerOne": "Apples",
-          "answerThree": "Papaya",
-          "answerTwo": "Oranges",
-          "correctAnswerID": 3,
-          "questionImage": "",
-          "questionText": "Apples or Oranges? tiss the question-4-7-1"
+          "answerOne": "Software",
+          "answerTwo": "Hardware",
+          "answerThree": "Humanware",
+          "answerFour": "Firmware",
+          "correctAnswerID": 2,
+          "questionImage": "#",
+          "questionText": "The computer and all other physical components associated with it, are called as _____________"
         },
         "question-4-7-2": {
-          "answerFour": "Peanuts",
-          "answerOne": "Apples",
-          "answerThree": "Papaya",
-          "answerTwo": "Oranges",
-          "correctAnswerID": 1,
-          "questionImage": "",
-          "questionText": "Apples or Oranges? tiss the question-4-7-2"
+          "answerOne": "F10",
+          "answerTwo": "F11",
+          "answerThree": "F12",
+          "answerFour": "F9",
+          "correctAnswerID": 3,
+          "questionImage": "#",
+          "questionText": "Which shortcut key is used to view configure in Tally"
         },
         "question-4-7-3": {
-          "answerFour": "Peanuts",
-          "answerOne": "Apples",
-          "answerThree": "Papaya",
-          "answerTwo": "Oranges",
-          "correctAnswerID": 1,
-          "questionImage": "",
-          "questionText": "Apples or Oranges? tiss the question-4-7-3"
+          "answerOne": "WordPress",
+          "answerTwo": "Twitter",
+          "answerThree": "None of the Above",
+          "answerFour": "All the above",
+          "correctAnswerID": 2,
+          "questionImage": "#",
+          "questionText": "Which is an example for Microblogging website?"
         },
         "question-4-7-4": {
-          "answerFour": "Peanuts",
-          "answerOne": "Apples",
-          "answerThree": "Papaya",
-          "answerTwo": "Oranges",
-          "correctAnswerID": 3,
-          "questionImage": "",
-          "questionText": "Apples or Oranges? tiss the question-4-7-4"
+          "answerOne": "Select Format > Money from the menu",
+          "answerTwo": "Click the Currency Style button on the formatting toolbar",
+          "answerThree": "You have to retype everything and manually add the euro signs, commas, and decimals",
+          "answerFour": "None of these",
+          "correctAnswerID": 2,
+          "questionImage": "#",
+          "questionText": "The numbers in our worksheet look like this: You want them to look like this: �1,000. How can you accomplish this?"
         }
       },
       "node-4-8": {
         "question-4-8-1": {
-          "answerFour": "Peanuts",
-          "answerOne": "Apples",
-          "answerThree": "Papaya",
-          "answerTwo": "Oranges",
+          "answerOne": "Adware",
+          "answerTwo": "Donationware",
+          "answerThree": "All of the above",
+          "answerFour": "All the above",
           "correctAnswerID": 1,
-          "questionImage": "",
-          "questionText": "Apples or Oranges? tiss the question-4-8-1"
+          "questionImage": "#",
+          "questionText": "_____________ distributed as freeware, but it requires the user to view advertisements to use the software."
         },
         "question-4-8-2": {
-          "answerFour": "Peanuts",
-          "answerOne": "Apples",
-          "answerThree": "Papaya",
-          "answerTwo": "Oranges",
-          "correctAnswerID": 2,
-          "questionImage": "",
-          "questionText": "Apples or Oranges? tiss the question-4-8-2"
+          "answerOne": "Data elements in the database can be modified by changing the data dictionary.",
+          "answerTwo": "The data dictionary contains the name and description of each data element.",
+          "answerThree": "The data dictionary is a tool used exclusively by the database administrator.",
+          "answerFour": "None of these",
+          "correctAnswerID": 1,
+          "questionImage": "#",
+          "questionText": "Which one of the following statements is false?"
         },
         "question-4-8-3": {
-          "answerFour": "Peanuts",
-          "answerOne": "Apples",
-          "answerThree": "Papaya",
-          "answerTwo": "Oranges",
+          "answerOne": "To add table",
+          "answerTwo": "To store objects created in other programs",
+          "answerThree": "For long text entries",
+          "answerFour": "For shout text entries of no more than 255 characters",
           "correctAnswerID": 3,
-          "questionImage": "",
-          "questionText": "Apples or Oranges? tiss the question-4-8-3"
+          "questionImage": "#",
+          "questionText": "What is the memo data type field used for?"
         },
         "question-4-8-4": {
-          "answerFour": "Peanuts",
-          "answerOne": "Apples",
-          "answerThree": "Papaya",
-          "answerTwo": "Oranges",
-          "correctAnswerID": 3,
-          "questionImage": "",
-          "questionText": "Apples or Oranges? tiss the question-4-8-4"
+          "answerOne": "Trash can",
+          "answerTwo": "Recycle bin",
+          "answerThree": "Deleted Files",
+          "answerFour": "None of above",
+          "correctAnswerID": 2,
+          "questionImage": "#",
+          "questionText": "Any files deleted in Windows goes into ____________"
         }
       },
       "node-4-9": {
         "question-4-9-1": {
-          "answerFour": "Peanuts",
-          "answerOne": "Apples",
-          "answerThree": "Papaya",
-          "answerTwo": "Oranges",
-          "correctAnswerID": 3,
-          "questionImage": "",
-          "questionText": "Apples or Oranges? tiss the question-4-9-1"
+          "answerOne": "The Scan Disk utility begins to run.",
+          "answerTwo": "The BIOS identification process occurs.",
+          "answerThree": "Memory chips are checked to ensure they are working properly.",
+          "answerFour": "All the above",
+          "correctAnswerID": 1,
+          "questionImage": "#",
+          "questionText": "Which of the following does NOT occur during the Power-On Self-Test (POST)?"
         },
         "question-4-9-2": {
-          "answerFour": "Peanuts",
-          "answerOne": "Apples",
-          "answerThree": "Papaya",
-          "answerTwo": "Oranges",
+          "answerOne": "gathering data",
+          "answerTwo": "processing data into information",
+          "answerThree": "analyzing the data or information",
+          "answerFour": "storing the data or information",
           "correctAnswerID": 3,
-          "questionImage": "",
-          "questionText": "Apples or Oranges? tiss the question-4-9-2"
+          "questionImage": "#",
+          "questionText": "Which of the following is NOT one of the four major data processing functions of a computer?"
         },
         "question-4-9-3": {
-          "answerFour": "Peanuts",
-          "answerOne": "Apples",
-          "answerThree": "Papaya",
-          "answerTwo": "Oranges",
-          "correctAnswerID": 1,
-          "questionImage": "",
-          "questionText": "Apples or Oranges? tiss the question-4-9-3"
+          "answerOne": "0",
+          "answerTwo": "1",
+          "answerThree": "both (a) and (b)",
+          "answerFour": "None of these",
+          "correctAnswerID": 2,
+          "questionImage": "#",
+          "questionText": "address can be used to specify a broadcast and map to hardware broadcast if available. By conversion broadcast address has hosted with all bitsS"
         },
         "question-4-9-4": {
-          "answerFour": "Peanuts",
-          "answerOne": "Apples",
-          "answerThree": "Papaya",
-          "answerTwo": "Oranges",
-          "correctAnswerID": 1,
-          "questionImage": "",
-          "questionText": "Apples or Oranges? tiss the question-4-9-4"
+          "answerOne": "Command.com",
+          "answerTwo": "Io.sys",
+          "answerThree": "Msdos.sys",
+          "answerFour": "All of above",
+          "correctAnswerID": 4,
+          "questionImage": "#",
+          "questionText": "Essential files of MS DOS are"
         }
       }
     }

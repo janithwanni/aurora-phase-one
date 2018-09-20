@@ -36,11 +36,10 @@ export class TimerViewCompComponent implements OnInit {
                 (60 * this.initialMinutes + this.initialSeconds - tick) / 60
               );
               if (seconds % 60 == 0) {
-                this.db
-                  .object("/general/timeLeft")
-                  .update(
+                this.db.object("/general").update({
+                  timeLeft:
                     60 * this.initialMinutes + this.initialSeconds - tick
-                  );
+                });
               }
               /* console.log("SECONDS" + seconds);
               console.log("MINUTES", minutes); */

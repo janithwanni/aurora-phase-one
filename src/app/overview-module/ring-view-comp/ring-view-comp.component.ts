@@ -28,8 +28,8 @@ export class RingViewCompComponent implements OnInit {
     { radius: 25, nodes: 8 },
     { radius: 12.5, nodes: 4 }
   ];
-  node_names: Array<Array<string>> = new Array(this.values.length);
-  node_names_obs: Observable<string[][]>;
+  node_names: Array<Array<string>> = new Array(this.values.length).fill([]);
+  node_names_obs: Observable<string[][]> = of(this.node_names);
   getRandomInt(min, max) {
     min = Math.ceil(min);
     max = Math.floor(max);
@@ -50,6 +50,7 @@ export class RingViewCompComponent implements OnInit {
     return this.common_y + this.values[i].radius * Math.sin(rad_angle);
   }
   getText(i: number, x: number): string {
+    //console.log(this.node_names);
     return this.node_names[i][x];
   }
   getColor(i: number, x: number): string {
@@ -80,42 +81,132 @@ export class RingViewCompComponent implements OnInit {
               }) 
             ].split("-")[2]; */
             console.log(nodeid);
-            this.node_names[3][nodeid.split("-")[2]] =
+            this.node_names[0][+nodeid.split("-")[2] - 1] =
               +node.payload.val()["occupiedBy"].split("-")[1] < 10
-                ? +node.payload.val()["occupiedBy"].split("-")[1] + "0"
+                ? "0" + +node.payload.val()["occupiedBy"].split("-")[1] + ""
                 : +node.payload.val()["occupiedBy"].split("-")[1] + "";
-            console.log(this.node_names);
-            this.node_names[3].forEach(element => {
+            //console.log(this.node_names);
+            this.node_names[0].forEach(element => {
               console.log(element);
             });
-            console.log(this.node_names[3][nodeid]);
+            console.log(this.node_names[0][+nodeid.split("-")[2] - 1]);
             this.node_names_obs = of(this.node_names);
-            console.log(this.node_names_obs);
+            //console.log(this.node_names_obs);
+          } else {
+            this.node_names[0][+node.key.split("-")[2] - 1] = "";
           }
         }
       });
     this.db
       .list("/node/3")
-      .valueChanges()
+      .snapshotChanges()
       .subscribe(data => {
         for (let node of data) {
-          //console.log(node);
+          for (let node of data) {
+            //console.log(Object.keys(node.payload.val()));
+            if (
+              Object.keys(node.payload.val()).find(x => {
+                return x == "occupiedBy";
+              }) != undefined
+            ) {
+              console.log("occupiedby ekak thieynawa");
+              let nodeid =
+                node.key; /*  +data[
+                Object.keys(node.payload.val()).find(x => {
+                  return x == "occupiedBy";
+                }) 
+              ].split("-")[2]; */
+              console.log(nodeid);
+              this.node_names[1][+nodeid.split("-")[2] - 1] =
+                +node.payload.val()["occupiedBy"].split("-")[1] < 10
+                  ? "0" + +node.payload.val()["occupiedBy"].split("-")[1] + ""
+                  : +node.payload.val()["occupiedBy"].split("-")[1] + "";
+              //console.log(this.node_names);
+              this.node_names[1].forEach(element => {
+                console.log(element);
+              });
+              console.log(this.node_names[1][+nodeid.split("-")[2] - 1]);
+              this.node_names_obs = of(this.node_names);
+              //console.log(this.node_names_obs);
+            } else {
+              this.node_names[1][+node.key.split("-")[2] - 1] = "";
+            }
+          }
         }
       });
     this.db
       .list("/node/2")
-      .valueChanges()
+      .snapshotChanges()
       .subscribe(data => {
         for (let node of data) {
           //console.log(node);
+          for (let node of data) {
+            //console.log(Object.keys(node.payload.val()));
+            if (
+              Object.keys(node.payload.val()).find(x => {
+                return x == "occupiedBy";
+              }) != undefined
+            ) {
+              console.log("occupiedby ekak thieynawa");
+              let nodeid =
+                node.key; /*  +data[
+                Object.keys(node.payload.val()).find(x => {
+                  return x == "occupiedBy";
+                }) 
+              ].split("-")[2]; */
+              console.log(nodeid);
+              this.node_names[2][+nodeid.split("-")[2] - 1] =
+                +node.payload.val()["occupiedBy"].split("-")[1] < 10
+                  ? "0" + +node.payload.val()["occupiedBy"].split("-")[1] + ""
+                  : +node.payload.val()["occupiedBy"].split("-")[1] + "";
+              //console.log(this.node_names);
+              this.node_names[2].forEach(element => {
+                console.log(element);
+              });
+              console.log(this.node_names[2][+nodeid.split("-")[2] - 1]);
+              this.node_names_obs = of(this.node_names);
+              //console.log(this.node_names_obs);
+            } else {
+              this.node_names[2][+node.key.split("-")[2] - 1] = "";
+            }
+          }
         }
       });
     this.db
       .list("/node/1")
-      .valueChanges()
+      .snapshotChanges()
       .subscribe(data => {
         for (let node of data) {
-          //console.log(node);
+          for (let node of data) {
+            //console.log(Object.keys(node.payload.val()));
+            if (
+              Object.keys(node.payload.val()).find(x => {
+                return x == "occupiedBy";
+              }) != undefined
+            ) {
+              console.log("occupiedby ekak thieynawa");
+              let nodeid =
+                node.key; /*  +data[
+                Object.keys(node.payload.val()).find(x => {
+                  return x == "occupiedBy";
+                }) 
+              ].split("-")[2]; */
+              console.log(nodeid);
+              this.node_names[3][+nodeid.split("-")[2] - 1] =
+                +node.payload.val()["occupiedBy"].split("-")[1] < 10
+                  ? "0" + +node.payload.val()["occupiedBy"].split("-")[1] + ""
+                  : +node.payload.val()["occupiedBy"].split("-")[1] + "";
+              //console.log(this.node_names);
+              this.node_names[3].forEach(element => {
+                console.log(element);
+              });
+              console.log(this.node_names[3][+nodeid.split("-")[2] - 1]);
+              this.node_names_obs = of(this.node_names);
+              //console.log(this.node_names_obs);
+            } else {
+              this.node_names[3][+node.key.split("-")[2] - 1] = "";
+            }
+          }
         }
       });
   }

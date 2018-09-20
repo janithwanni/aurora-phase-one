@@ -29,6 +29,7 @@ export class QuestionViewCompComponent implements OnInit {
   currentTime: number;
   competitionTimeLeft: number;
   answerScore: number;
+  currentQID: string;
   checkAnswer(): void {
     let teamID = localStorage.getItem("teamID");
     const ringMainScores = { 4: 1, 3: 3, 2: 6, 1: 10 };
@@ -54,10 +55,13 @@ export class QuestionViewCompComponent implements OnInit {
         console.log(progress);
         progress[0].currentRing = this.currentRingLevel;
         progress[0].totalDistance += 1;
+        console.log(this.correctAnswer, this.userAnswer);
         if (this.userAnswer == this.correctAnswer) {
           progress[0].currentScore = ringMainScores[this.currentRingLevel - 1];
+          console.log("score is", progress[0].currentScore);
         } else {
           progress[0].currentScore = ringPenalties[this.currentRingLevel - 1];
+          console.log("score is", progress[0].currentScore);
         }
         this.answerScore = progress[0].currentScore;
         progress[0].totalScore += progress[0].currentScore;
@@ -81,7 +85,8 @@ export class QuestionViewCompComponent implements OnInit {
       .update({ answerGiven: true });
   }
   continueQuiz() {
-    this.router.navigateByUrl("quiz");
+    localStorage.setItem("currentQID", this.currentQID);
+    this.router.navigateByUrl("quiz/redirect");
   }
 
   ngOnInit() {
@@ -104,7 +109,7 @@ export class QuestionViewCompComponent implements OnInit {
             this.currentRingLevel = data.currentRingLevel;
             this.currentNode = data.currentNodeNumber;
             this.correctAnswer = data.correctAnswerText;
-
+            this.currentQID = data.questionID;
             this.answerList[0] = data.answerOne;
             this.answerList[1] = data.answerTwo;
             this.answerList[2] = data.answerThree;

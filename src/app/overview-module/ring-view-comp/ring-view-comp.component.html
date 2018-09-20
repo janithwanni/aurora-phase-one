@@ -14,7 +14,7 @@
 
   <g *ngFor="let r of node_names;let i=index">
     <g *ngFor="let n of r;let y = index">
-      <text style="fill:#fff;font-size:2.75px;font-family:Roboto;font-weight:700;" *ngFor="let n of ' '.repeat(getNodes(i)).split('');let y = index"
+      <text style="fill:#fff;font-size:2.75px;font-family:Roboto;font-weight:400;" *ngFor="let n of ' '.repeat(getNodes(i)).split('');let y = index"
         [attr.x]="getXCoord(i,y)" [attr.y]="getYCoord(i,y)" dx="-1.5" dy="1.2">
         {{getText(i,y)}}
       </text>

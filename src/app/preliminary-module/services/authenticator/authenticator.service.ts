@@ -52,12 +52,12 @@ export class AuthenticatorService {
               let teamProgress: TeamProgress = {
                 teamid: "team-" + teamID,
                 currentScore: 0,
-                currentRing: 0,
+                currentRing: 4,
                 currentTime: 0,
-                timeLeft: 0,
+                timeLeft: 3600,
                 totalDistance: 0,
                 totalScore: 0,
-                currentNode: 0
+                currentNode: 1
               };
               this.db.list("/teamProgress/team-" + teamID).push(teamProgress);
               this.db

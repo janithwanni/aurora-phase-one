@@ -19,7 +19,23 @@ export class RulesRegulationCompComponent implements OnInit {
       .pipe(
         flatMap(data => {
           if (data == true) {
-            this.router.navigateByUrl("quiz");
+            this.db
+              .object(
+                "/teamCurrentQuestion/team-" +
+                  localStorage.getItem("teamID") +
+                  "/questionID"
+              )
+              .valueChanges()
+              .subscribe(val => {
+                console.log(
+                  "/teamCurrentQuestion/" +
+                    localStorage.getItem("teamID") +
+                    "/questionID"
+                );
+                if (val != null) {
+                  this.router.navigateByUrl("quiz");
+                }
+              });
           }
           return of(data == true);
         })
